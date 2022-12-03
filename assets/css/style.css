@@ -29,3 +29,7 @@ body{
     padding: 16px 25px;
     border-bottom: 1px solid #30dc00;
   }
+
+  .container .info{
+    margin: 25px 20px 35px;
+  }
