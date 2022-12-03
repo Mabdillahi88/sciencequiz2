@@ -14,5 +14,18 @@ body{
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    background: #78f053;
+    background: #53d3f0;
+  }
+
+  .container{
+    width: 440px;
+    border-radius: 7px;
+    background: #0e60ec;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.08);
+  }
+  .container h2{
+    font-size: 25px;
+    font-weight: 500;
+    padding: 16px 25px;
+    border-bottom: 1px solid #ccc;
   }
