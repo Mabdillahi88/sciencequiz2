@@ -36,6 +36,52 @@ body{
     margin: 25px 20px 35px;
   }
 
+  .container-1 {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 80rem;
+    margin: 0 auto;
+    padding: 2rem;
+}
+  
+  .main-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.main-center {
+  justify-content: center;
+  align-items: center;
+}
+
+.btn {
+  font-size: 2.4rem;
+  padding: 2rem 0;
+  width: 30rem;
+  text-align: center;
+  margin-bottom: 1rem;
+  text-decoration: none;
+  color: rgb(28, 26, 26);
+  background: linear-gradient(90deg, rgb(83, 35, 173) 0%, rgb(231, 53, 8) 100%);
+  border-radius: 4px;
+}
+
+.btn:hover {
+  cursor: pointer;
+  box-shadow: 0 0.4rem 1.4rem 0 rgba(227, 10, 79, 0.6);
+  transition: transform 150ms;
+  transform: scale(1.03);
+}
+
+.btn[disabled]:hover {
+  cursor: not-allowed;
+  box-shadow: none;
+  transform: none;
+}
+
   .info .keywords{
     user-select: none;
     font-size: 33px;
