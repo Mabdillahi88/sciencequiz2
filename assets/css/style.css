@@ -10,7 +10,7 @@
 
 :root {
   --clr-primary-200: #F3EED9;
-  --clr-primary-400: #0f6706;
+  --clr-primary-400: #ADEFD1FF;
 
   --clr-neutral-100: #fff;
   --clr-neutral-900: #0e60ec;
@@ -114,20 +114,20 @@ body{
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    background: #30dc00;
+    background:#F65058FF;
   }
 
   .container{
     width: 440px;
     border-radius: 7px;
-    background: #1b6307;
+    background:#FBDE44FF;
     box-shadow: 0 10px 20px rgba(0,0,0,0.08);
   }
   .container h2{
     font-size: 25px;
     font-weight: 500;
     padding: 16px 25px;
-    border-bottom: 1px solid #30dc00;
+    border-bottom: 1px solid#ADEFD1FF;
   }
 
   .container .info{
@@ -205,3 +205,32 @@ body{
   .buttons .correct-science-word:hover{
     background: #2c52ed;
   }
+
+  
+@media screen and (max-width: 470px) {
+  .container h2{
+    font-size: 22px;
+    padding: 13px 20px;
+  }
+  .info .keywords{
+    font-size: 30px;
+    letter-spacing: 20px;
+    margin-right: -20px;
+  }
+  .container .info{
+    margin: 20px 20px 30px;
+  }
+  .keywords-science p{
+    font-size: 16px;
+    margin-bottom: 8px;
+  }
+  .info input{
+    height: 55px;
+    font-size: 17px;
+  }
+  .buttons button{
+    padding: 14px 0;
+    font-size: 16px;
+    width: calc(100% / 2 - 7px);
+  }
+}
