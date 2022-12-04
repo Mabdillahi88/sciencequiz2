@@ -15,6 +15,31 @@
   --clr-neutral-100: #fff;
   --clr-neutral-900: #0e60ec;
 }
+.navbar-links-all-pages {
+  height: 100%;
+}
+
+.navbar-links-all-pages ul {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-links-all-pages li {
+  list-style: none;
+}
+
+.navbar-links-all-pages li a {
+  display: block;
+  text-decoration: none;
+  color: rgb(15, 1, 1);
+  padding: 1rem;
+}
+
+.navbar-links-all-pages li:hover {
+  background-color: var(--clr-neutral-900);
+}
+
 
 body{
     display: flex;
