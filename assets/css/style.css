@@ -8,6 +8,14 @@
   font-family: 'Lato', Oswald;
 }
 
+:root {
+  --clr-primary-200: #F3EED9;
+  --clr-primary-400: #0e387a;
+
+  --clr-neutral-100: #fff;
+  --clr-neutral-900: #0e60ec;
+}
+
 body{
     display: flex;
     padding: 0 10px;
@@ -60,4 +68,10 @@ body{
     font-size: 18px;
     border-radius: 5px;
     border: 1px solid #bfbfbf;
+  }
+  .info input:focus{
+    box-shadow: 0px 2px 4px rgba(0,0,0,0.08);
+  }
+  .info input::placeholder{
+    color: #aaa;
   }
