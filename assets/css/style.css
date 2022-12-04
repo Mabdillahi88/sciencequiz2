@@ -1,7 +1,7 @@
 /* imported fonts */
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald&display=swap');
 
-*{
+*, *:before, *:after{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -10,11 +10,27 @@
 
 :root {
   --clr-primary-200: #F3EED9;
-  --clr-primary-400: #0e387a;
+  --clr-primary-400: #0f6706;
 
   --clr-neutral-100: #fff;
   --clr-neutral-900: #0e60ec;
 }
+
+
+.navbar-all-pages {
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--clr-primary-400);
+  color: white;
+}
+
+.brand-name-all-pages {
+  font-size: 1.5rem;
+  margin: .5rem;
+}
+
 .navbar-links-all-pages {
   height: 100%;
 }
@@ -32,7 +48,7 @@
 .navbar-links-all-pages li a {
   display: block;
   text-decoration: none;
-  color: rgb(15, 1, 1);
+  color: white;
   padding: 1rem;
 }
 
@@ -40,11 +56,33 @@
   background-color: var(--clr-neutral-900);
 }
 
+.toggle-button-all-pages {
+  position: absolute;
+  top: .75rem;
+  right: 1rem;
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30px;
+  height: 21px;
+}
+
+.toggle-button-all-pages .bar-all-pages {
+  height: 3px;
+  width: 100%;
+  background-color: white;
+  border-radius: 10px;
+}
+
 /* to make nav links more responsive */
 @media (max-width: 800px) {
   .navbar-all-pages {
       flex-direction: column;
       align-items: flex-start;
+  }
+
+  .toggle-button-all-pages {
+      display: flex;
   }
 
   .navbar-links-all-pages {
@@ -69,7 +107,6 @@
       display: flex;
   }
 }
-
 
 body{
     display: flex;
@@ -129,4 +166,25 @@ body{
   }
   .info input::placeholder{
     color: #aaa;
+  }
+  
+  .info  input:focus::placeholder{
+    color: #bfbfbf;
+  }
+  .info  .buttons{
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+  }
+
+  .buttons button{
+    border: none;
+    outline: none;
+    color: black;
+    cursor: pointer;
+    padding: 15px 0;
+    font-size: 17px;
+    border-radius: 5px;
+    width: calc(100% / 2 - 8px);
+    transition: all 0.3s ease;
   }
