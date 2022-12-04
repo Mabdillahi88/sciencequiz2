@@ -193,8 +193,15 @@ body{
     transform: scale(0.97);
   }
   .buttons .new-keyword{
-    background: #6C757D;
+    background:white;
   }
   .buttons .new-keyword:hover{
     background: #26e808;
+  }
+
+  .buttons .correct-science-word{
+    background:white;
+  }
+  .buttons .correct-science-word:hover{
+    background: #2c52ed;
   }
