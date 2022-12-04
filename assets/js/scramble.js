@@ -33,3 +33,13 @@ const initGame = () => {
     inputField.setAttribute("maxlength", correctWord.length);
 }
 initGame();
+
+const checkWord = () => {
+    let userWord = inputField.value.toLowerCase();
+    if(!userWord) return alert("Please enter the word to check!");
+    if(userWord !== correctWord) return alert(`Oops! ${userWord} is not a correct word`);
+    alert(`Congrats! ${correctWord.toUpperCase()} is the correct word`);
+    initGame();
+}
+refreshBtn.addEventListener("click", initGame);
+checkBtn.addEventListener("click", checkWord);
