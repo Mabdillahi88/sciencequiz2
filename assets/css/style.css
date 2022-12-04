@@ -40,6 +40,16 @@
   background-color: var(--clr-neutral-900);
 }
 
+/* to make nav links more responsive */
+@media (max-width: 800px) {
+  .navbar-all-pages {
+      flex-direction: column;
+      align-items: flex-start;
+  }
+  .navbar-links-all-pages {
+    display: none;
+    width: 100%;
+}
 
 body{
     display: flex;
