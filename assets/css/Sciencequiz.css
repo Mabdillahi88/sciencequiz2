@@ -33,3 +33,12 @@ body{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 
                 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+
+.instructions.activeInfo,
+.questions.activeQuiz,
+.final_score.activeResult{
+    opacity: 1;
+    z-index: 5;
+    pointer-events: auto;
+    transform: translate(-50%, -50%) scale(1);
+}
