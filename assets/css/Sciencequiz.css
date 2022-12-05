@@ -80,3 +80,35 @@ body{
 .instructions .rules_game{
   padding: 15px 30px;
 }
+
+.instructions .rules_game .keyfacts{
+  margin: 5px 0;
+  font-size: 17px;
+}
+.instructions .rules_game .keyfacts span{
+  font-weight: 600;
+  color: #007bff;
+}
+
+.instructions .buttons{
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 0 30px;
+  border-top: 1px solid lightgrey;
+}
+.instructions .buttons button{
+  margin: 0 5px;
+  height: 40px;
+  width: 100px;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  border: 1px solid #007bff;
+  transition: all 0.3s ease;
+}
+
