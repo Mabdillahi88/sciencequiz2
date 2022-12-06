@@ -33,15 +33,15 @@ let questions = [
     ]
   },
     {
-    numb: 4,
-    question: "Which of these is a limiting factor of photosynthesis?"
-    answer: "Carbon dioxide",
-    options: [
-      "Oxygen",
-      "Carbon dioxide",
-      "Methane",
-      "All of the above"
-    ]
+      numb: 3,
+      question: "Photosynthesis is what kind of reaction?",
+      answer: "Endothermic",
+      options: [
+        "Exothermic",
+        "Endothermic",
+        "Phototropic",
+        "All of the above"
+      ]
   },
     {
     numb: 5,
