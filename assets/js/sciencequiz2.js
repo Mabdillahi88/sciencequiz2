@@ -20,3 +20,20 @@ exit_btn.onclick = ()=>{
 }
 
 
+continue_btn.onclick = ()=>{
+    info_box.classList.remove("activeInfo"); 
+    quiz_box.classList.add("activeQuiz"); 
+    showQuetions(0); 
+    queCounter(1); 
+    startTimer(15); 
+    startTimerLine(0); 
+}
+
+let timeValue =  15;
+let que_count = 0;
+let que_numb = 1;
+let userScore = 0;
+let counter;
+let counterLine;
+let widthValue = 0;
+
