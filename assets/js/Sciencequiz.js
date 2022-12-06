@@ -34,7 +34,7 @@ let questions = [
   },
     {
     numb: 4,
-    question: "Which of these is a limiting factor of photosynthesis?,
+    question: "Which of these is a limiting factor of photosynthesis?"
     answer: "Carbon dioxide",
     options: [
       "Oxygen",
