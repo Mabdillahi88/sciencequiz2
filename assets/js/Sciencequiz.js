@@ -1,12 +1,13 @@
 let questions = [
     {
     numb: 1,
-    question: "What does HTML stand for?",
-    answer: "Hyper Text Markup Language",
+    question: 'What is the name of the storage carbohydrate found in plants?',
+    answer: 'Starch',
     options: [
-      "Hyper Text Preprocessor",
-      "Hyper Text Markup Language",
-      "Hyper Text Multiple Language",
-      "Hyper Tool Multi Language"
+      "Glycogen",
+      "Cellulose",
+      "Starch",
+      "All of the above"
     ]
   },
+  
