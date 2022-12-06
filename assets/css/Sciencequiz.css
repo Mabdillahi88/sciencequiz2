@@ -215,7 +215,27 @@ section .potential-answers .option:hover{
   border: 1px solid #b8daff;
 }
 section .potential-answers .option.correct{
-  color: #155724;
+  color: #00d431;
   background: #d4edda;
   border: 1px solid #c3e6cb;
+}
+
+section .potential-answers .option.incorrect{
+  color: #6d0e04;
+  background: #f8d7da;
+  border: 1px solid #f5c6cb;
+}
+section .potential-answers .option.disabled{
+  pointer-events: none;
+}
+section .potential-answers .option .logo{
+  height: 26px;
+  width: 26px;
+  border: 2px solid transparent;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 13px;
+  pointer-events: none;
+  transition: all 0.3s ease;
+  line-height: 24px;
 }
