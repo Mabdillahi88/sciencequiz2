@@ -191,3 +191,31 @@ section .potential-answers{
   padding: 20px 0px;
   display: block;   
 }
+
+section .potential-answers .option{
+  background: aliceblue;
+  border: 1px solid #84c5fe;
+  border-radius: 5px;
+  padding: 8px 15px;
+  font-size: 17px;
+  margin-bottom: 15px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+section .potential-answers .option:last-child{
+  margin-bottom: 0px;
+}
+section .potential-answers .option:hover{
+  color: #004085;
+  background: #cce5ff;
+  border: 1px solid #b8daff;
+}
+section .potential-answers .option.correct{
+  color: #155724;
+  background: #d4edda;
+  border: 1px solid #c3e6cb;
+}
