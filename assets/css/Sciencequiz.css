@@ -170,3 +170,24 @@ body{
   border: 1px solid #343a40;
   user-select: none;
 }
+
+.questions header .straight-line{
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  height: 3px;
+  background: #007bff;
+}
+
+section{
+  padding: 25px 30px 20px 30px;
+  background: #fff;
+}
+section .questions-asked{
+  font-size: 25px;
+  font-weight: 600;
+}
+section .potential-answers{
+  padding: 20px 0px;
+  display: block;   
+}
