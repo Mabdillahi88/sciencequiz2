@@ -34,3 +34,17 @@ h1 {
   text-align: center;
   }
 
+  label {
+    display: block;
+    margin: 20px 0;
+  }
+
+  input, textarea {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    outline: none;
+    resize: none;
+    border: none;
+    border-bottom:1px solid #d3d3d3;
+  }
