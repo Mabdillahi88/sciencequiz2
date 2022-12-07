@@ -4,22 +4,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/css/contact_us.css">
-    <link rel="icon" href="assets/images/favicon.JPG" type="image/x-icon">
-    <script src="https://kit.fontawesome.com/5d222d0dd1.js" crossorigin="anonymous"></script>
-    >sc
    <title>Science Quiz</title>
+   <link rel="stylesheet" href="assets/css/contact_us.css">
+   <link rel="icon" href="assets/images/favicon.JPG" type="image/x-icon">
+   <script src="https://kit.fontawesome.com/5d222d0dd1.js" crossorigin="anonymous"></script>
+   <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+   <script type="text/javascript">
+       (function() {
+        emailjs.init('user_BSFJqPmUsZsEMuW3i');
+       })();
+      </script>
 </head>
 <body>
 <div>
-  <input type="text" placeholder="Full Name" required /><br/>
-  <input type="email" placeholder="EmaidId"  required /><br/>
-  <textarea placeholder="Message" required></textarea><br/>
-  <button>Send</button>
-
+  <input type="text" id="fullName" placeholder="Full Name" required /><br/>
+  <input type="email" id="email_id" placeholder="Email Id"  required /><br/>
+  <textarea id="message" placeholder="Message" required></textarea><br/>
+  <button onclick="sendMail()">Send</button>
 </div>
-
-
-
 </body>
 
