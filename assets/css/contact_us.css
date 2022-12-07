@@ -1,0 +1,36 @@
+/* imported fonts */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald&display=swap');
+
+*, *:before, *:after{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Lato', Oswald;
+}
+
+body {
+  background:#F65058FF;
+}
+
+.overlay {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background:#F65058FF;
+}
+
+form {
+  max-width: 550px;
+  width: 90%;
+  background: #FBDE44FF;
+  margin: 17vh auto 0 auto;
+  padding: 40px;
+  border-radius: 3px;
+  box-sizing: border-box;
+}
+
+h1 {
+  margin: 0;
+  text-align: center;
+  }
+
