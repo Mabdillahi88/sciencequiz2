@@ -1,10 +1,20 @@
-function sendMail() {
-    var params = {
-        from_name : document.getElementById("fullName").value,
-        email_id : document.getElementById("email.id").value,
-        message : document.getElementById("message").value
-    }
-    emailjs.send("service_ucprvlr", "template_nm94uz8", params).then(function (res) {
-        alert("success!" + res.status);
-    })
-}
+document
+    .getElementById("myForm")
+    .addEventListener("submit", function (event) {
+      event.preventDefault();
+
+      const serviceID = "service_ucprvlr";
+      const templateID = "template_nm94uz8";
+
+      // send the email here
+      emailjs.sendForm(serviceID, templateID, this).then(
+        (response) => {
+          console.log("SUCCESS!", response.status, response.text);
+          alert("SUCCESS!");
+        },
+        (error) => {
+          console.log("FAILED...", error);
+          alert("FAILED...", error);
+        }
+      );
+    });
