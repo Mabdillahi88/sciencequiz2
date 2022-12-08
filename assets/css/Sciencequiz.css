@@ -41,7 +41,7 @@ body{
 .begin_btn button{
     font-size: 25px;
     font-weight: 500;
-    color: #002A57;
+    color: #003166;
     padding: 15px 30px;
     outline: none;
     border: none;
@@ -367,20 +367,20 @@ footer button.show{
 
 .begin_start button.next{
     color: #fff;
-    background: #007bff;
+    background: #003670
 }
 
 .begin_start button.next:hover{
-    background: #0263ca;
+    background: #003670
 }
 
 .begin_start button.leave{
-    color: #007bff;
+    color: #003670;
     background: #fff;
 }
 
 .begin_start button.leave:hover{
-    color: #fff;
+    color: #003670;
     background: #007bff;
 }
 
