@@ -1,3 +1,6 @@
+
+// all the questions and hints that will be used during this game
+// This is not my code but modified it and I have credited it  the readme file
 const wordList = [
   {
       word: "respiration",

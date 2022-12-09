@@ -1,3 +1,6 @@
+//selecting all required elements
+// This is not my code but modified it and I have credited it  the readme file
+
 const facts = document.querySelector(".facts"),
 assistance = document.querySelector(".assistance span"),
 chances = document.querySelector(".chances span"),
@@ -6,6 +9,10 @@ leave = document.querySelector(".leave"),
 importantInformation = document.querySelector(".key-information");
 
 let word, maxGuesses, incorrectLetters = [], correctLetters = [];
+
+// the words are changed random jargon
+// help is given to assistance obtaining correct answer
+// letters pressed by user are displayed
 
 function randomWord() {
     let ranItem = wordList[Math.floor(Math.random() * wordList.length)];
@@ -23,6 +30,8 @@ function randomWord() {
     }
 }
 randomWord();
+// the random words are checked against answers
+// correct letters are highlighted and add to the empty locations
 
 function initGame(e) {
     let key = e.target.value.toLowerCase();
@@ -30,25 +39,25 @@ function initGame(e) {
         if(word.includes(key)) {
             for (let i = 0; i < word.length; i++) {
                 if(word[i] == key) {
-                    correctLetters += key;
+                    correctLetters += key; // correct letter is highlighted
                     facts.querySelectorAll("input")[i].value = key;
                 }
             }
         } else {
             maxGuesses--;
-            incorrectLetters.push(` ${key}`);
+            incorrectLetters.push(` ${key}`); // incorrect answers are recorded for user 
         }
-        chances.innerText = maxGuesses;
+        chances.innerText = maxGuesses; // numbers of chances are recorded
         incorrect.innerText = incorrectLetters;
     }
     importantInformation.value = "";
 
     setTimeout(() => {
         if(correctLetters.length === word.length) {
-            alert(`Congrats! You found the word ${word.toUpperCase()}`);
+            alert(`YES!!! You found the word ${word.toUpperCase()}`); // correct word is highlighted to the user
             return randomWord();
         } else if(maxGuesses < 1) {
-            alert("Game over! You don't have remaining guesses");
+            alert("Game over! You don't have remaining guesses"); // game over is highlight for the user
             for(let i = 0; i < word.length; i++) {
                 facts.querySelectorAll("input")[i].value = word[i];
             }
@@ -61,8 +70,10 @@ importantInformation.addEventListener("input", initGame);
 facts.addEventListener("click", () => importantInformation.focus());
 document.addEventListener("keydown", () => importantInformation.focus());
 
+// to make nav links more responsive
+
 function myFunction() {
-    var x = document.getElementById("link-directions");
+    var x = document.getElementById("link-directions"); 
     if (x.className === "links") {
       x.className += " responsive";
     } else {

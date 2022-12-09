@@ -1,11 +1,17 @@
-/* imported fonts */
+/*  Fonts import */
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald&display=swap');
+
+  /* Remove default values and set for the whole page */
+
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: 'Lato', Oswald;
 }
+
+/* This is not my code but I have credited it  the readme file */
+  /* to make nav links more responsive */
 
 .links {
     overflow: hidden;
@@ -68,6 +74,10 @@ body{
   justify-content: center;
   background:#F65058FF;
 }
+
+/* This is not my code but I have credited it  the readme file  */ 
+ /* to style and wrap the game */
+
 .home{
   width: 430px;
   background: #fff;
@@ -80,6 +90,10 @@ body{
   padding: 20px 25px;
   border-bottom: 1px solid #ccc;
 }
+
+/* This is not my code but I have credited it  the readme file  */ 
+/* game instructions */ 
+
 .home .information{
   margin: 25px 25px 35px;
 }
