@@ -1,22 +1,43 @@
 <!DOCTYPE html>
-<!-- Created By CodingNepal -->
 <html lang="en" dir="ltr">
-   <head>
-      <meta charset="utf-8">
-      <title>Responsive Navigation Menu</title>
-      <link rel="stylesheet" href="assets/css/homepage.css">
-      <link rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
-      integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2"
-      crossorigin="anonymous">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   </head>
-   <body>
+  <head>
+    <meta charset="utf-8">
+    <title>What is the Science word?</title>
+    <!-- link to css file -->
+    <link rel="stylesheet" href="assets/css/sciencequiz.css">
+            <!-- link to css file -->
+    <link rel="icon" href="assets/images/favicon.JPG" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+       <!-- link to nav links -->
     <div class="links" id="link-directions">
-        <a href="Sciencequiz.html" class="onLinks btn btn-primary">Science Quiz</a>
+        <a href="Sciencequiz.html" class="onLinks">Science Quiz</a>
         <a href="Science-scramble.html" class="onLinks">Science Scramble</a>
         <a href="contact-us.html" class="onLinks">Contact Us</a>
+            <!-- This is not my code but I have credited it in the readme file */
+  /* to make nav links and page more responsive -->
         <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
       </div>
-   </body>
+    <div class="home">
+       <!-- the science guess game /* links to javascript below to make it more interactive /* -->
+      <h1>What is the Science term?</h1>
+      <div class="information">
+        <input type="text" class="key-information" maxlength="1">
+        <div class="facts"></div>
+        <div class="key-facts">
+          <p class="assistance">Help: <span></span></p>
+          <p class="chances">How many more guesses left: <span></span></p>
+          <p class="incorrect">Incorrect: <span></span></p>
+        </div>
+        <button class="leave">Next Scientific Term</button>
+      </div>
+    </div>
+     
+<!-- link to  questions in js script -->
+    <script src="assets/js/questions_quiz.js"></script>
+    <!-- link to quiz code to make it more interactive in js script -->
+    <script src="assets/js/quiz.js"></script>
+
+  </body>
 </html>
