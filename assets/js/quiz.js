@@ -60,3 +60,12 @@ leave.addEventListener("click", randomWord);
 importantInformation.addEventListener("input", initGame);
 facts.addEventListener("click", () => importantInformation.focus());
 document.addEventListener("keydown", () => importantInformation.focus());
+
+function myFunction() {
+    var x = document.getElementById("link-directions");
+    if (x.className === "links") {
+      x.className += " responsive";
+    } else {
+      x.className = "links";
+    }
+  }

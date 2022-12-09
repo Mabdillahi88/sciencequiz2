@@ -43,3 +43,12 @@ const checkWord = () => {
 }
 refreshBtn.addEventListener("click", initGame);
 checkBtn.addEventListener("click", checkWord);
+
+function myFunction() {
+    var x = document.getElementById("link-directions");
+    if (x.className === "links") {
+      x.className += " responsive";
+    } else {
+      x.className = "links";
+    }
+  }

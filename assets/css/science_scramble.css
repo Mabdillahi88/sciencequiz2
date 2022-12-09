@@ -8,6 +8,60 @@
   font-family: 'Lato', Oswald;
 }
 
+.links {
+  overflow: hidden;
+  background-color: #F65058FF; 
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.links a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.links a:hover {
+  background-color:#FBDE44FF;
+  color: black;
+}
+
+.links a.active {
+  background-color: #FBDE44FF;
+  color: white;
+}
+
+.links .icon {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .links a:not(:first-child) {display: none;}
+  .links a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .links.responsive .icon {
+    position: absolute;
+    right: 0;
+    bottom:0;
+  }
+  .links.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+
+}
+
 body{
     display: flex;
     padding: 0 10px;
@@ -16,9 +70,7 @@ body{
     min-height: 100vh;
     background:#F65058FF;
   }
-
-
-  
+   
   .container{
     width: 440px;
     border-radius: 7px;
