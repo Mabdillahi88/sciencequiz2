@@ -56,3 +56,7 @@ function initGame(e) {
     }, 100);
 }
 
+leave.addEventListener("click", randomWord);
+importantInformation.addEventListener("input", initGame);
+facts.addEventListener("click", () => importantInformation.focus());
+document.addEventListener("keydown", () => importantInformation.focus());
