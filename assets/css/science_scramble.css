@@ -1,5 +1,8 @@
-/* imported fonts */
+/*  Fonts import */
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald&display=swap');
+
+
+  /* Remove default values and set for the whole page */
 
 *, *:before, *:after{
   margin: 0;
@@ -7,6 +10,8 @@
   box-sizing: border-box;
   font-family: 'Lato', Oswald;
 }
+/* This is not my code but I have credited it  the readme file */
+  /* to make nav links more responsive */
 
 .links {
   overflow: hidden;
@@ -71,6 +76,9 @@ body{
     background:#F65058FF;
   }
    
+/* This is not my code but I modified it and have credited it  the readme file  */ 
+ /* to style and contain the game */
+
   .container{
     width: 440px;
     border-radius: 7px;
@@ -87,54 +95,9 @@ body{
   .container .info{
     margin: 25px 20px 35px;
   }
+ /* to style the keywords*/
 
-  .container-1 {
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    max-width: 80rem;
-    margin: 0 auto;
-    padding: 2rem;
-}
-  
-  .main-column {
-    display: flex;
-    flex-direction: column;
-}
-
-.main-center {
-  justify-content: center;
-  align-items: center;
-}
-
-.btn {
-  font-size: 2.4rem;
-  padding: 2rem 0;
-  width: 30rem;
-  text-align: center;
-  margin-bottom: 1rem;
-  text-decoration: none;
-  color: rgb(28, 26, 26);
-  background: linear-gradient(90deg, rgb(38, 201, 17) 0%, #FBDE44FF) 100%;
-  border-radius: 4px;
-}
-
-.btn:hover {
-  cursor: pointer;
-  box-shadow: 0 0.4rem 1.4rem 0 #26e808;
-  transition: transform 150ms;
-  transform: scale(1.03);
-}
-
-.btn[disabled]:hover {
-  cursor: not-allowed;
-  box-shadow: none;
-  transform: none;
-}
-
-  .info .keywords{
+   .info .keywords{
     user-select: none;
     font-size: 33px;
     font-weight: 500;
@@ -144,6 +107,8 @@ body{
     word-break: break-all;
     text-transform: uppercase;
   }
+
+
   .keywords-science p{
     font-size: 18px;
     margin-bottom: 10px;
@@ -177,6 +142,8 @@ body{
     justify-content: space-between;
   }
 
+ /* to style the buttons */
+
   .buttons button{
     border: none;
     outline: none;
@@ -205,8 +172,9 @@ body{
   .buttons .correct-science-word:hover{
     background: #2c52ed;
   }
+/* This is not my code but I modified it and have credited it  the readme file  */
+   /* to make container more responsive*/
 
-  
 @media screen and (max-width: 470px) {
   .container h2{
     font-size: 22px;

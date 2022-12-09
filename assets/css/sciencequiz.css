@@ -148,6 +148,9 @@ body{
     background:#F65058FF;
 }
 
+/* This is not my code but I modified it and have credited it  the readme file  */
+   /* to make wrap text more responsive*/
+
 @media screen and (max-width: 460px) {
   .home {
     width: 100%;
