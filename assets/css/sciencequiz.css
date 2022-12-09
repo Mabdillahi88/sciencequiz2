@@ -81,27 +81,23 @@ body{
 }
 
 @media screen and (max-width: 460px) {
-    .home {
-      width: 100%;
-    }
-    .home h1{
-      font-size: 22px;
-      padding: 16px 20px;
-    }
-    .home .information{
-      margin: 25px 20px 35px;
-    }
-    .facts input{
-      height: 51px;
-      width: 50px;
-      margin: 3px;
-      font-size: 22px;
-    }
-    .key-facts p{
-      font-size: 17px;
-    }
-    .information .leave{
-      padding: 14px 0;
-      font-size: 16px;
-    }
+  .home {
+    width: 100%;
   }
+  .home h1{
+    font-size: 22px;
+    padding: 16px 20px;
+  }
+  .home .information{
+    margin: 25px 20px 35px;
+  }
+  .facts input{
+    height: 51px;
+    width: 50px;
+    margin: 3px;
+    font-size: 22px;
+  }
+  .key-facts p{
+    font-size: 17px;
+  }
+}
