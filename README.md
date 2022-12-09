@@ -1,7 +1,7 @@
 # Science Quiz
 (Developer: Mohamed Abdillahi)
 
-![Mockup image](docs/features/our-responsive.JPG)
+![Mockup image](assets/docs/features/responsive_image.JPG)
 
 [Live webpage](https://mabdillahi88.github.io/CI_pp2ScienceQuiz/)
 
