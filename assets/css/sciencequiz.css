@@ -45,6 +45,7 @@
     display: none;
   }
   
+  
   @media screen and (max-width: 600px) {
     .links a:not(:first-child) {display: none;}
     .links a.icon {
