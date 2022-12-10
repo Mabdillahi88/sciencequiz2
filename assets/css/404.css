@@ -11,13 +11,13 @@ body {
 
 
 body > main > center > p {
-  color: #ddd;
+  color:#0077ff;
   font-family: 'Lato', Oswald;
 }
 
 body > main > center > h1 {
   text-transform: uppercase;
-  color: pink;
+  color:#0077ff;
   font-size: 48px;
 }
 
