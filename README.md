@@ -240,6 +240,21 @@ user stories covered:
  ## Validation
 
 ### HTML Validation
+The W3C Markup Validation Service was used to check the HTML of the webpage. None of the pages have any issues or obvious warnings.
+
+# Science guess game
+![validation-home](assets/docs/features/validations/validation_html_index.JPG)
+
+# Science scramble game
+![validation-home](assets/docs/features/validations/validation_html_word_scramble.JPG)
+
+# Science contact game
+![validation-home](assets/docs/features/validations/validation_html_contact_us.JPG)
+
+# 404 page
+![validation-home](assets/docs/features/validations/validation_html_404_page.JPG)
+
+
 
 
 
