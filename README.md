@@ -460,7 +460,7 @@ was build using descriptions on
 ### Code
 
 - Responsive topvan was build using description on https://github.com/WebDevSimplified/css-tutorials/tree/master/Responsive%20Navbar
- - interactive and responsive nature of scramble quiz built and modified on description on https://github.com/WilfR/Scramble and
+ - interactive and responsive nature of scramble quiz built and modified on description on https://github.com/WilfR/Scramble and https://www.youtube.com/watch?v=CzNX2MmYA5Y.
   - interactive and responsive nature of guessing game quiz built and modified on description https://www.youtube.com/watch?v=CzNX2MmYA5Y.
 
 

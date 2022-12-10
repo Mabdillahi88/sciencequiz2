@@ -26,7 +26,7 @@ function randomWord() {
 
     let html = "";
     for (let i = 0; i < word.length; i++) {
-        html += `<input type="text" disabled>`;
+        html += `<input type="text">`;
         facts.innerHTML = html;
     }
 }
