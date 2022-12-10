@@ -164,7 +164,8 @@ The website's layout was created to be simple to understand and use. Every game 
 - Bootstrap
 - Email js
 - Chrome development tools
-# validate the wesbite
+
+# Tools for validation
 
 - [WC3 Validator](https://validator.w3.org/)
 - [Jigsaw W3 Validator](https://jigsaw.w3.org/css-validator/)
@@ -177,6 +178,7 @@ The website's layout was created to be simple to understand and use. Every game 
 
 ### Navigation Bar
 user stories covered:
+
 - Appeared on every page (3 pages).
 - Users can quickly traverse it, and the link to the page they are now on is emphasized. 
 - The navbar provides links to the science scrambe, science guessing game and contact us page. 
@@ -186,6 +188,7 @@ user stories covered:
 
 ### Science scramble screen
 user stories covered:
+
  - Instructions are clearly stated at the top of the game.
  - The chosen word is scramble.
  - Hint is given underneath the word so help the user identify the chosen word.
@@ -199,6 +202,7 @@ user stories covered:
 
 ### Science guess screen
 user stories covered:
+
  - Instructions are clearly stated at the top of the game.
  - The chosen letters are placed in vacant boxes on the word guess screen.
  - Hint is given underneath the word so help the user identify the chosen word.
@@ -224,9 +228,10 @@ user stories covered:
 
 
 ### 404 error page
+user stories covered:
 
 - If a user inputs a URL that is invalid, a 404 error page will be shown on the website.
 - Has a button to return to the main screen.
 
-- User stories covered: 
+ 
 
