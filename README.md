@@ -172,7 +172,13 @@ The website's layout was created to be simple to understand and use. Every game 
 - [Lighthouse](https://developers.google.com/web/tools/lighthouse/) 
 - [Am I Responsive](http://ami.responsivedesign.is/)
 
+## Features
 
+### Navigation Bar
+
+- Appeared on every page (3 pages).
+- Users can quickly traverse it, and the link to the page they are now on is emphasized. 
+- The navbar provides links to the science scrambe, science guessing game and contact us page. It is fully responsive. On smaller devices, it converts into a toggler (hamburger menu icon).
 
 
 
