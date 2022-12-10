@@ -181,5 +181,14 @@ The website's layout was created to be simple to understand and use. Every game 
 - The navbar provides links to the science scrambe, science guessing game and contact us page. 
 - It is fully responsive. On smaller devices, it converts into a toggler (hamburger menu icon).
 
+### science scramble screen
 
+ - Instructions are clearly stated at the top of the game.
+ - The chosen word is scramble.
+ - Hint is given underneath the word so help the user identify the chosen word.
+ - The time remaining is underneath the hint to engage and focus the user.
+ - Empty text box is given for the user to type the answer
+ - New word and check word button is underneath the text box to enable the user to pick a new word or 
+   check the answer they have typed in the text box.
+- Reset button is added underneath to reset the whole game.
 
