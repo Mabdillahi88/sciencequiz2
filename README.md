@@ -235,6 +235,8 @@ user stories covered:
 - If a user inputs a URL that is invalid, a 404 error page will be shown on the website.
 - Has a button to return to the main screen.
 
+![404](assets/docs/features/user_stories11.JPG)
+
  ## Validation
 
 ### HTML Validation
@@ -370,3 +372,26 @@ Google Chrome Developer Tools Device Toggling was utilized to evaluate all webpa
 | **Bug** | **Fix** |
 | ----------- | ----------- |
 When devices were switched, the games were not responsive. | To account for the varied widths of devices, media query was utilized
+
+## Deployment
+
+The website was deployed using GitHub Pages by undertaken these stages:
+1. In the GitHub repository navigate to the Settings tab
+2. On the left hand menu select Pages
+3. For the source select Branch: master
+4. After the webpage refreshes automaticaly you will se a ribbon on the top saying: "Your site is published at https://mabdillahi88.github.io/CI_pp2ScienceQuiz/
+
+
+## Credits
+
+
+### Code
+
+
+
+## Acknowledgements
+
+I would like to thank:
+- My wife Filsan and my kids for all their patience, love and motivation and giving me free from our young children to work on the project. 
+- My mentor Mo Shami for his feedback, advice and support.
+
