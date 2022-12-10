@@ -176,7 +176,7 @@ The website's layout was created to be simple to understand and use. Every game 
 ## Features
 
 ### Navigation Bar
-
+user stories covered:
 - Appeared on every page (3 pages).
 - Users can quickly traverse it, and the link to the page they are now on is emphasized. 
 - The navbar provides links to the science scrambe, science guessing game and contact us page. 
@@ -185,7 +185,7 @@ The website's layout was created to be simple to understand and use. Every game 
 ![navbar](assets/docs/features/navbar_features.JPG)
 
 ### Science scramble screen
-
+user stories covered:
  - Instructions are clearly stated at the top of the game.
  - The chosen word is scramble.
  - Hint is given underneath the word so help the user identify the chosen word.
@@ -195,10 +195,10 @@ The website's layout was created to be simple to understand and use. Every game 
    check the answer they have typed in the text box.
 - Reset button is added underneath to reset the whole game.
 
-![navbar](assets/docs/features/science_scramble_features.JPG)
+![science_scramble](assets/docs/features/science_scramble_features.JPG)
 
 ### Science guess screen
-
+user stories covered:
  - Instructions are clearly stated at the top of the game.
  - The chosen letters are placed in vacant boxes on the word guess screen.
  - Hint is given underneath the word so help the user identify the chosen word.
@@ -206,4 +206,19 @@ The website's layout was created to be simple to understand and use. Every game 
 -  Space is given to record the incorrect letters typed at guessing.
 -  The button (new scientific term) will direct you to select a different scientific term.
 
-![navbar](assets/docs/features/science_guess_features.JPG)
+![science_guess](assets/docs/features/science_guess_features.JPG)
+
+### Contact us page 
+user stories covered:
+
+- User can give feedback on the game. 
+- EmailJS was used to send a message and user data in an email to the developer.
+- Send button will send the message and reset button will clear the page for new message
+- Once comment is sent, success message will pop for confirmation.
+- Validation is added to ensure all the key text boxes are required to fill in for message to be sent out
+
+![contact_us1](assets/docs/features/contact_us_features1.JPG)
+![contact_us2](assets/docs/features/contact_us_features2.JPG)
+
+
+
