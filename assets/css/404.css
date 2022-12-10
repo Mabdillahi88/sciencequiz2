@@ -13,18 +13,24 @@ body {
   /* This is not my code but i have modified it and I have credited it in the readme file */
     /* 404 page */
 
-body > main > center > p {
+
+.center {
+  text-align: center;
+}
+
+
+body > main > .center > p {
   color:#0077ff;
   font-family: 'Lato', Oswald;
 }
 
-body > main > center > h1 {
+body > main > .center > h1 {
   text-transform: uppercase;
   color:#0077ff;
   font-size: 48px;
 }
 
-body > main > center > h3 > a {
+body > main > .center > h3 > a {
   text-transform: uppercase;
   font-size: 18px;
   color: #000;
