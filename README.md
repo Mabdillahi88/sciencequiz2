@@ -142,5 +142,37 @@ The website's layout was created to be simple to understand and use. Every game 
 ![wireframes-home](assets/docs/features/wireframes/wireframe_contact_us.JPG)
 
 
+## Technologies Used
+
+### Languages
+
+- HTML
+- CSS
+- JavaScript
+
+### Frameworks & Tools
+
+- Git
+- GitHub
+- Gitpod
+- Balsamiq
+- Google Fonts
+- Adobe Color
+- Font Awsome
+- Favicon
+- Bootstrap
+- Email js
+- Chrome development tools
+# validate the wesbite
+
+- [WC3 Validator](https://validator.w3.org/)
+- [Jigsaw W3 Validator](https://jigsaw.w3.org/css-validator/)
+- [JShint](https://jshint.com/)
+- [Wave Validator](https://wave.webaim.org/)
+- [Lighthouse](https://developers.google.com/web/tools/lighthouse/) 
+- [Am I Responsive](http://ami.responsivedesign.is/)
+
+
+
 
 
