@@ -128,3 +128,7 @@ The website's layout was created to be simple to understand and use. Every game 
 
 - A contact page with a contact form that enables users to email the developer with questions or comments 
 - A separate 404 error page
+
+
+### Wireframes
+
