@@ -38,7 +38,7 @@ const initGame = () => {
     correctWord = randomObj.word.toLowerCase();;
     inputField.value = "";
     inputField.setAttribute("maxlength", correctWord.length);
-}
+};
 initGame();
 
 // answers will be checked here 
@@ -49,7 +49,7 @@ const checkWord = () => {
     if(userWord !== correctWord) return alert(`Oops! ${userWord} is not a correct word`); // answers will be checked against correct answers
     alert(`Congrats! ${correctWord.toUpperCase()} is the correct word`);
     initGame();
-}
+};
 refreshBtn.addEventListener("click", initGame); // event listener to refresh and pick a new random word
 checkBtn.addEventListener("click", checkWord); // event listener to check answer
 

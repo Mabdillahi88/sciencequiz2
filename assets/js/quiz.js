@@ -7,7 +7,7 @@ chances = document.querySelector(".chances span"),
 incorrect = document.querySelector(".incorrect span"),
 leave = document.querySelector(".leave"),
 importantInformation = document.querySelector(".key-information");
-const start_btn = document.querySelector(".begin_btn button");
+
 
 let word, maxGuesses, incorrectLetters = [], correctLetters = [];
 

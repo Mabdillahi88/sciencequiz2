@@ -95,4 +95,4 @@ let words = [
         word: "alkalis",
         hint: "Opposite of acids"
     },
-]
+];
