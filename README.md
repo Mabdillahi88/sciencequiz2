@@ -255,6 +255,25 @@ The W3C Markup Validation Service was used to check the HTML of the webpage. Non
 ![validation-home](assets/docs/features/validations/validation_html_404_page.JPG)
 
 
+### CSS Validation
+
+The W3C Jigsaw CSS Validation Service was used to review the website's CSS. None of the pages have any issues or obvious warnings.
+
+# Science guess game
+![validation-home](assets/docs/features/validations/validation-css.index_page.JPG)
+
+# Science scramble game
+![validation-home](assets/docs/features/validations/validation-css.science_scramble.JPG)
+
+# Science contact game
+![validation-home](assets/docs/features/validations/validation-css.contact_us.JPG)
+
+# 404 page
+![validation-home](assets/docs/features/validations/validation-css.404_page.JPG)
+
+### Accessibility
+
+The WAVE WebAIM online accessibility evaluation tool was used to determine if the website complied with stringent accessibility standards. On every page, there are no errors.
 
 
 

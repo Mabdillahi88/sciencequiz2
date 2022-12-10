@@ -35,17 +35,21 @@
   }
   
   .navbar a:hover {
-    background-color:#FBDE44FF;
+    background-color:#545454;
     color: black;
   }
   
   .navbar a.active {
-    background-color: #FBDE44FF;
+    background-color: #545454;
     color: white;
   }
   
   .navbar .icon {
     display: none;
+  }
+
+  .btn-color{
+    background-color: #004C9E;
   }
    
   /* This is not my code but I modified it and have credited it  the readme file  */
