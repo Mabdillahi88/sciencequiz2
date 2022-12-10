@@ -106,5 +106,12 @@ Lato is an excellent typeface for websites since it comes in a variety of styles
 
 Oswald works nicely as a complement. It is that seductive and hospitable. Due to its little elongation, it always gives contrast to a typographic combination.
 
+### Structure
 
+The website's layout was created to be simple to understand and use. Every game screen is contained within the same enclosure and has a consistent aesthetic throughout.
+
+- The game's screens are as follows:
+ - Word scramble screen consist of empty boxes for the chosen letters to occupy. 
+ - Underneath is space for wrong letters chosen and how guesses attempted. 
+ - Underneath that is buttons which will take you to the next chosen scientific term to guess.
 
