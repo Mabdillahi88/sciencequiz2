@@ -459,12 +459,13 @@ The website was deployed using GitHub Pages by undertaken these stages:
 was build using descriptions on
 ### Code
 
-- Responsive bottom nav was build using description on https://github.com/WebDevSimplified/css-tutorials/tree/master/Responsive%20Navbar and https://www.w3schools.com/howto/howto_js_bottom_nav_responsive.asp
+- Responsive bottom nav was build using description on https://github.com/WebDevSimplified/css-tutorials/tree/master/Responsive%20Navbar and https://www.w3schools.com/howto/howto_css_bottom_nav.asp
  - interactive and responsive nature of scramble quiz built and modified on description on https://github.com/WilfR/Scramble and https://www.youtube.com/watch?v=CzNX2MmYA5Y.
  - Email js tutorial help was employed to develop a contact form that sent an email to the specified 
   email address.
   - interactive and responsive nature of guessing game quiz built and modified on description on https://github.com/gsavr and https://www.youtube.com/watch?v=JaC21cZnbl0.
-  - 404 page was was build using descriptions on https://godnondsilva.github.io/
+  - 404 page was build using descriptions on https://godnondsilva.github.io/
+  - contact form was build using descriptions on https://www.w3schools.com/howto/howto_css_contact_form. asp
 
 
 ## Acknowledgements
