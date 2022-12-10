@@ -265,7 +265,8 @@ Google Chrome Developer Tools Device Toggling was utilized to evaluate all webpa
 | ----------------- | ----------------- | ------------------------------------ | ----------------- |
 |  Above the game  |  go to game page and navigating to above the game | instruction of the game given  | instruction of the game is shown |
 
-![rules](docs/features/map.JPG)
+![rules](assets/docs/features/user_stories1.JPG)
+![rules](assets/docs/features/user_stories1.1.JPG)
 
 
 2. As a first-time user, I want to be able to play the game using the keyboard
@@ -274,16 +275,16 @@ Google Chrome Developer Tools Device Toggling was utilized to evaluate all webpa
 | ----------------- | ----------------- | ------------------------------------ | ----------------- |
 |  letters pressed will visible to the user | type the letter using your keyboard | type words will be highlighted in the box or attempted area | letters will be visible in the empty boxed if correct and wrong letters will be visible in the attempted area |
 
-![map](docs/features/map.JPG)
+![keyboard](assets/docs/features/user_stories2.JPG)
+![keyboard](assets/docs/features/user_stories2.1.JPG)
 
-3. As a first-time user, I need to be able to observe the letters I've correctly predicted so far and how many more rounds I    
-   have to guess.
+3. As a first-time user, I need to be able to observe the letters I've correctly predicted so far and how many more rounds I have to guess.
 
 | **Feature**       | **Action**        | **Expected Result**                  | **Actual Result** |
 | ----------------- | ----------------- | ------------------------------------ | ----------------- |
 |  letters will be present in the text boxes | letters will appear in the text box |letters will appear in the text box as users type the correct letters | letters appear in the text box if correct |
 
-![map](docs/features/map.JPG)
+![rounds](assets/docs/features/user_stories3.JPG)
 
 4. As a first-time user, I want to know how I fared after identifying the sentence.
 
