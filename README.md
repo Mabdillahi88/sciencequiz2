@@ -215,10 +215,13 @@ user stories covered:
 - EmailJS was used to send a message and user data in an email to the developer.
 - Send button will send the message and reset button will clear the page for new message
 - Once comment is sent, success message will pop for confirmation.
+- scroll has been added to enable user to send or reset the page.
 - Validation is added to ensure all the key text boxes are required to fill in for message to be sent out
 
 ![contact_us1](assets/docs/features/contact_us_features1.JPG)
 ![contact_us2](assets/docs/features/contact_us_features2.JPG)
+![contact_us3](assets/docs/features/contact_us_features3.JPG)
+
 
 ### 404 error page
 - The site has been given a 404 error page which is displayed if the user enters a url that does not exist.
