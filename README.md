@@ -62,3 +62,11 @@ An interactive and user-friendly version of the two well-known games was what th
 
 - Anyone who like scramble and guessing activities may play the game.
 - Anyone looking to have fun while playing a game with straightforward rules.
+
+### User Expectations and Requirements
+
+- Simple navigation, clear information display
+- Rules of the game that are simple to comprehend.
+- A responsive website that enables game play on any device
+- Links and features that operate as intended
+- A simple approach to get in touch with the creator and offer feedback
