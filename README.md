@@ -116,14 +116,15 @@ The website's layout was created to be simple to understand and use. Every game 
 - The chosen letters are placed in vacant boxes on the word guess screen.
 - There is room below for incorrect letter selections and attempts at guessing.
 - You are given a hint to help you guess the word.
-- Below that are buttons that will direct you to the following selected scientific phrase to guess.
+- The button (new scientific term) will direct you to select a different scientific term.
 
-#### Science word guess
+#### Science scramble
 - You are given a hint to aid with word guessing after the chosen words are scrambled and placed in the   
   center of the screen.
 - A timer is provided to keep the user focused and engaged. - A space is provided below for inaccurate
   letter choices and guesses.
-- The buttons below that will direct you to either check the word or select a different scientific phrase.
+- The buttons (check word and new word) below that will direct you to either check the word or select a 
+  different scientific term.
 - A reset button to reload the page is located beneath it.
 
 - A contact page with a contact form that enables users to email the developer with questions or comments 
@@ -181,7 +182,7 @@ The website's layout was created to be simple to understand and use. Every game 
 - The navbar provides links to the science scrambe, science guessing game and contact us page. 
 - It is fully responsive. On smaller devices, it converts into a toggler (hamburger menu icon).
 
-### science scramble screen
+### Science scramble screen
 
  - Instructions are clearly stated at the top of the game.
  - The chosen word is scramble.
@@ -192,3 +193,11 @@ The website's layout was created to be simple to understand and use. Every game 
    check the answer they have typed in the text box.
 - Reset button is added underneath to reset the whole game.
 
+### Science guess screen
+
+ - Instructions are clearly stated at the top of the game.
+ - The chosen letters are placed in vacant boxes on the word guess screen.
+ - Hint is given underneath the word so help the user identify the chosen word.
+-  Space is given to inform the user number of attemps left to identify the chosen word. 
+-  Space is given to record the incorrect letters typed at guessing.
+-  The button (new scientific term) will direct you to select a different scientific term.
