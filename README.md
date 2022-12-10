@@ -265,7 +265,7 @@ Google Chrome Developer Tools Device Toggling was utilized to evaluate all webpa
 | ----------------- | ----------------- | ------------------------------------ | ----------------- |
 |  Above the game  |  go to game page and navigating to above the game | instruction of the game given  | instruction of the game is shown |
 
-![map](docs/features/map.JPG)
+![rules](docs/features/map.JPG)
 
 
 2. As a first-time user, I want to be able to play the game using the keyboard

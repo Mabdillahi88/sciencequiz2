@@ -8,6 +8,8 @@
   padding: 0;
   box-sizing: border-box;
   font-family: 'Lato', Oswald;
+  overflow-x:hidden;
+  overflow-y:auto;
 }
 
 /* This is not my code but I have credited it  the readme file */
