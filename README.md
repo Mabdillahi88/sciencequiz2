@@ -233,5 +233,9 @@ user stories covered:
 - If a user inputs a URL that is invalid, a 404 error page will be shown on the website.
 - Has a button to return to the main screen.
 
- 
+ ## Validation
+
+### HTML Validation
+
+
 
