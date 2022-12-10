@@ -100,4 +100,11 @@ For the colour theme, yellow is a warm, primary colour with a lot of energy that
 
 ![Colour scheme](assets/docs/colour%20scheme.JPG)
 
+### Fonts 
+
+Lato is an excellent typeface for websites since it comes in a variety of styles and is very readable. Both typefaces are thought to be good for dyslexics.
+
+Oswald works nicely as a complement. It is that seductive and hospitable. Due to its little elongation, it always gives contrast to a typographic combination.
+
+
 
