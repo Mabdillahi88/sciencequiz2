@@ -57,3 +57,8 @@ An interactive and user-friendly version of the two well-known games was what th
 - Make it fully responsive and accessible.
 
 ## User Experience
+
+### Target audiene
+
+- Anyone who like scramble and guessing activities may play the game.
+- Anyone looking to have fun while playing a game with straightforward rules.
