@@ -182,6 +182,8 @@ The website's layout was created to be simple to understand and use. Every game 
 - The navbar provides links to the science scrambe, science guessing game and contact us page. 
 - It is fully responsive. On smaller devices, it converts into a toggler (hamburger menu icon).
 
+![navbar](assets/docs/features/navbar_features.JPG)
+
 ### Science scramble screen
 
  - Instructions are clearly stated at the top of the game.
@@ -193,6 +195,8 @@ The website's layout was created to be simple to understand and use. Every game 
    check the answer they have typed in the text box.
 - Reset button is added underneath to reset the whole game.
 
+![navbar](assets/docs/features/science_scramble_features.JPG)
+
 ### Science guess screen
 
  - Instructions are clearly stated at the top of the game.
@@ -201,3 +205,5 @@ The website's layout was created to be simple to understand and use. Every game 
 -  Space is given to inform the user number of attemps left to identify the chosen word. 
 -  Space is given to record the incorrect letters typed at guessing.
 -  The button (new scientific term) will direct you to select a different scientific term.
+
+![navbar](assets/docs/features/science_guess_features.JPG)
