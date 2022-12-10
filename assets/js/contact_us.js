@@ -8,11 +8,11 @@ document
       event.preventDefault();
 
       // login details for email js
-      
+
       const serviceID = "service_ucprvlr"; 
       const templateID = "template_nm94uz8";
 
-// validation details for email js - undefined
+// validation details for email js - undefined 
       emailjs.sendForm(serviceID, templateID, this).then(
         (response) => {
           console.log("SUCCESS!", response.status, response.text);

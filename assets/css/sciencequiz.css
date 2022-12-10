@@ -12,7 +12,7 @@
   overflow-y:auto;
 }
 
-/* This is not my code but I have credited it  the readme file */
+/* This is not my code but I modified it and i have credited it  the readme file */
   /* to make nav links more responsive */
 
 .links {
@@ -47,6 +47,8 @@
     display: none;
   }
   
+  /* This is not my code but I modified it and i have credited it  the readme file */
+  /* more reponsive and interactive game experience */
   
   @media screen and (max-width: 600px) {
     .links a:not(:first-child) {display: none;}
@@ -78,7 +80,7 @@ body{
   background:#F65058FF;
 }
 
-/* This is not my code but I have credited it  the readme file  */ 
+/* This is not my code but I modified it and i have credited it  the readme file */
  /* to style and wrap the game */
 
 .home{
@@ -94,7 +96,7 @@ body{
   border-bottom: 1px solid #ccc;
 }
 
-/* This is not my code but I have credited it  the readme file  */ 
+/* This is not my code but I modified it and i have credited it  the readme file */
 /* game instructions */ 
 
 .home .information{
@@ -151,7 +153,7 @@ body{
     background:#4F4203FF;
 }
 
-/* This is not my code but I modified it and have credited it  the readme file  */
+/* This is not my code but I modified it and i have credited it  the readme file */
    /* to make wrap text more responsive*/
 
 @media screen and (max-width: 460px) {

@@ -11,6 +11,7 @@ importantInformation = document.querySelector(".key-information");
 
 let word, maxGuesses, incorrectLetters = [], correctLetters = [];
 
+// This is not my code but modified it and I have credited it  the readme file
 // the words are changed random jargon
 // help is given to assistance obtaining correct answer
 // letters pressed by user are displayed
@@ -31,6 +32,7 @@ function randomWord() {
     }
 }
 randomWord();
+// This is not my code but modified it and I have credited it  the readme file
 // the random words are checked against answers
 // correct letters are highlighted and add to the empty locations
 
@@ -65,8 +67,10 @@ function initGame(e) {
         }
     }, 100);
 }
-
-leave.addEventListener("click", randomWord);
+// This is not my code but modified it and I have credited it  the readme file
+// event listener so users can pick a different random word
+// event listeners can start the game by pressing any button and play the game
+leave.addEventListener("click", randomWord); 
 importantInformation.addEventListener("input", initGame);
 facts.addEventListener("click", () => importantInformation.focus());
 document.addEventListener("keydown", () => importantInformation.focus());

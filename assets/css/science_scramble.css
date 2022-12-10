@@ -13,7 +13,7 @@
   overflow-y:auto;
 
 }
-/* This is not my code but I have credited it  the readme file */
+/* This is not my code but I modified it and i have credited it  the readme file */
   /* to make nav links more responsive */
 
 .links {
@@ -79,7 +79,7 @@ body{
     background:#F65058FF;
   }
    
-/* This is not my code but I modified it and have credited it  the readme file  */ 
+/* This is not my code but I modified it and i have credited it  the readme file */
  /* to style and contain the game */
 
   .container{
@@ -175,7 +175,7 @@ body{
   .buttons .correct-science-word:hover{
     background: #2c52ed;
   }
-/* This is not my code but I modified it and have credited it  the readme file  */
+/* This is not my code but I modified it and i have credited it  the readme file */
    /* to make container more responsive*/
 
 @media screen and (max-width: 470px) {
