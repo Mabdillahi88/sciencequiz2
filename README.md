@@ -305,7 +305,7 @@ Google Chrome Developer Tools Device Toggling was utilized to evaluate all webpa
 
 | **Feature**       | **Action**        | **Expected Result**                  | **Actual Result** |
 | ----------------- | ----------------- | ------------------------------------ | ----------------- |
-|  ***** | ************** |************** | ************** |
+|  game is visible on different devices | open the game using different devices | game is responsive on different devices | game is responsive on range of devices |
 
 ![map](docs/features/map.JPG)
 
@@ -313,7 +313,7 @@ Google Chrome Developer Tools Device Toggling was utilized to evaluate all webpa
 
 | **Feature**       | **Action**        | **Expected Result**                  | **Actual Result** |
 | ----------------- | ----------------- | ------------------------------------ | ----------------- |
-|  ***** | ************** |************** | ************** |
+|  contact form | using the navbar click on contact us. Fill out the form and press submit |contact form will open and form will appear.  | contact us tab will open contact form to be filled out by user |
 
 ![map](docs/features/map.JPG)
 
