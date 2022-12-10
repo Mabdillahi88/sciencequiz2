@@ -8,6 +8,10 @@
   box-sizing: border-box;
   font-family: 'Lato', Oswald;
   font-size: 20px;
+  overflow-x:hidden;
+  overflow-y:auto;
+
+  
 }
  /* This is not my code but I have credited it  the readme file */
   /* to make nav links more responsive */
@@ -79,6 +83,7 @@
 form {
   max-width: 550px;
   width: 90%;
+  height: 450px;
   background: #FBDE44FF;
   margin: 17vh auto 0 auto;
   padding: 40px;

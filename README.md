@@ -220,5 +220,8 @@ user stories covered:
 ![contact_us1](assets/docs/features/contact_us_features1.JPG)
 ![contact_us2](assets/docs/features/contact_us_features2.JPG)
 
-
+### 404 error page
+- The site has been given a 404 error page which is displayed if the user enters a url that does not exist.
+- Contains return to the main screen button
+- User stories covered: 15
 
