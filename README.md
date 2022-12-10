@@ -353,7 +353,7 @@ Google Chrome Developer Tools Device Toggling was utilized to evaluate all webpa
 | ----------------- | ----------------- | ------------------------------------ | ----------------- |
 |  404 page will appear | wrong webpage is typed and user will direct to 404 | 404 page will appear | 404 page will appear |
 
-![map](docs/features/map.JPG)
+![404](assets/docs/features/user_stories11.JPG)
 
 12. As a returning user, I desire that users be able to get in touch with me and offer their comments.
 
@@ -361,4 +361,12 @@ Google Chrome Developer Tools Device Toggling was utilized to evaluate all webpa
 | ----------------- | ----------------- | ------------------------------------ | ----------------- |
 |  contact form | using the navbar click on contact us. Fill out the form and press submit |contact form will open and form will appear.  | contact us tab will open contact form to be filled out by user |
 
-![map](docs/features/map.JPG)
+![contact_us](assets/docs/features/user_stories7.JPG)
+![scroll_down](assets/docs/features/user_stories7.1.JPG)
+
+
+## Bugs
+
+| **Bug** | **Fix** |
+| ----------- | ----------- |
+When devices were switched, the games were not responsive. | To account for the varied widths of devices, media query was utilized
