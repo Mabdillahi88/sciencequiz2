@@ -125,3 +125,6 @@ The website's layout was created to be simple to understand and use. Every game 
   letter choices and guesses.
 - The buttons below that will direct you to either check the word or select a different scientific phrase.
 - A reset button to reload the page is located beneath it.
+
+- A contact page with a contact form that enables users to email the developer with questions or comments 
+- A separate 404 error page
