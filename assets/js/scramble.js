@@ -2,11 +2,11 @@
 // This is not my code but modified it and I have credited it  the readme file
 
 const wordText = document.querySelector(".keywords"),
-hintText = document.querySelector(".help-hint span"),
-timeText = document.querySelector(".time-remaining b"),
-inputField = document.querySelector("input"),
-refreshBtn = document.querySelector(".new-keyword"),
-checkBtn = document.querySelector(".correct-science-word");
+helpFacts = document.querySelector(".help-hint span"),
+almost = document.querySelector(".time-remaining b"),
+scienceTerms = document.querySelector("input"),
+cleanSlate = document.querySelector(".new-keyword"),
+scrambleRight = document.querySelector(".correct-science-word");
 
 
 //selecting all required elements
@@ -18,7 +18,7 @@ const initTimer = maxTime => {
     timer = setInterval(() => {
         if(maxTime > 0) {
             maxTime--;
-            return timeText.innerText = maxTime;
+            return almost.innerText = maxTime;
         }
         alert(`Time off! ${correctWord.toUpperCase()} was the correct word`); // once time is up giving the correct answer
         initGame();
@@ -34,24 +34,24 @@ const initGame = () => {
         [wordArray[i], wordArray[j]] = [wordArray[j], wordArray[i]];
     }
     wordText.innerText = wordArray.join("");
-    hintText.innerText = randomObj.hint;
+    helpFacts.innerText = randomObj.hint;
     correctWord = randomObj.word.toLowerCase();
-    inputField.value = "";
-    inputField.setAttribute("maxlength", correctWord.length);
+    scienceTerms.value = "";
+    scienceTerms.setAttribute("maxlength", correctWord.length);
 };
 initGame();
 
 // answers will be checked here 
 
 const checkWord = () => {
-    let userWord = inputField.value.toLowerCase();
+    let userWord = scienceTerms.value.toLowerCase();
     if(!userWord) return alert("Please enter the word to check!"); // words must be enter empty space will not be allowed
     if(userWord !== correctWord) return alert(`Oops! ${userWord} is not a correct word`); // answers will be checked against correct answers
     alert(`Congrats! ${correctWord.toUpperCase()} is the correct word`);
     initGame();
 };
-refreshBtn.addEventListener("click", initGame); // event listener to refresh and pick a new random word
-checkBtn.addEventListener("click", checkWord); // event listener to check answer
+cleanSlate.addEventListener("click", initGame); // event listener to refresh and pick a new random word
+scrambleRight.addEventListener("click", checkWord); // event listener to check answer
 
 // This is not my code but modified it and I have credited it  the readme file
 // to make nav links more responsive
