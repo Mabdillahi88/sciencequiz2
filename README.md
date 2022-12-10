@@ -80,7 +80,8 @@ An interactive and user-friendly version of the two well-known games was what th
 4. I want to know how I fared after identifying the sentence.
 5. I want to see the word that I attempted to guess.
 6. I want to be capable to use desktop, tablet, and mobile devices to play the game.
-7. I want to be able to communicate with the developer
+7. As a first-time user, I want to be able to communicate with the developer using the scroll down 
+   feature.
 8. I want confirmation that my message was sent.
 
 ### Site Owner
@@ -292,7 +293,8 @@ Google Chrome Developer Tools Device Toggling was utilized to evaluate all webpa
 | ----------------- | ----------------- | ------------------------------------ | ----------------- |
 |  correct answer will be shown in the text box | correct letters will be visible in text box |correct answer will start to appear in the text box | correct answer appear in text box |
 
-![map](docs/features/map.JPG)
+
+![identify](assets/docs/features/user_stories2.JPG)
 
 5. As a first-time user, I want to see the word that I attempted to guess.
 
@@ -300,7 +302,7 @@ Google Chrome Developer Tools Device Toggling was utilized to evaluate all webpa
 | ----------------- | ----------------- | ------------------------------------ | ----------------- |
 |  number of attempts will be present underneath the unknown word | number of attempts left will start to decrease as user engages with game | number of attempts will highlighted | number of attempts |
 
-![map](docs/features/map.JPG)
+![chances](assets/docs/features/user_stories5.JPG)
 
 6. As a first-time user, I want to be capable to use desktop, tablet, and mobile devices to play the game.
 
@@ -308,15 +310,16 @@ Google Chrome Developer Tools Device Toggling was utilized to evaluate all webpa
 | ----------------- | ----------------- | ------------------------------------ | ----------------- |
 |  game is visible on different devices | open the game using different devices | game is responsive on different devices | game is responsive on range of devices |
 
-![map](docs/features/map.JPG)
+![devices](assets/docs/features/user_stories6.JPG)
 
-7. As a first-time user, I want to be able to communicate with the developer
+7. As a first-time user, I want to be able to communicate with the developer using the scroll down feature.
 
 | **Feature**       | **Action**        | **Expected Result**                  | **Actual Result** |
 | ----------------- | ----------------- | ------------------------------------ | ----------------- |
 |  contact form | using the navbar click on contact us. Fill out the form and press submit |contact form will open and form will appear.  | contact us tab will open contact form to be filled out by user |
 
-![map](docs/features/map.JPG)
+![contact_us](assets/docs/features/user_stories7.JPG)
+![scroll_down](assets/docs/features/user_stories7.1.JPG)
 
 8. As a first-time user, I want confirmation that my message was sent.
 
@@ -324,7 +327,7 @@ Google Chrome Developer Tools Device Toggling was utilized to evaluate all webpa
 | ----------------- | ----------------- | ------------------------------------ | ----------------- |
 |  success message pops up | once you submit the form, a message will appear to highlight receipt of sent form  | success message will pop up | success message will pop |
 
-![map](docs/features/map.JPG)
+![message](assets/docs/features/user_stories8.JPG)
 
 9. As a returning user, I want the game to be simple for the user to grasp. 
 
@@ -332,7 +335,8 @@ Google Chrome Developer Tools Device Toggling was utilized to evaluate all webpa
 | ----------------- | ----------------- | ------------------------------------ | ----------------- |
 |  Above the game  |  go to game page and navigating to above the game | instruction of the game given  | instruction of the game is shown |
 
-![map](docs/features/map.JPG)
+![rules](assets/docs/features/user_stories1.JPG)
+![rules](assets/docs/features/user_stories1.1.JPG)
 
 10. As a returning user, I expect optimal responsiveness in my game.
 
@@ -340,7 +344,7 @@ Google Chrome Developer Tools Device Toggling was utilized to evaluate all webpa
 | ----------------- | ----------------- | ------------------------------------ | ----------------- |
 |  game is visible on different devices | open the game using different devices | game is responsive on different devices | game is responsive on range of devices |
 
-![map](docs/features/map.JPG)
+![devices](assets/docs/features/user_stories6.JPG)
 
 11. As a returning user, If a user types in a URL that is invalid, I want them to land on a 404 error page instead of having  
     to utilize their browser's back button.
