@@ -2,7 +2,7 @@
 // all the questions and hints that will be used during this game
 // This is not my code but modified it and I have credited it  the readme file
 
-let words = [
+let words = [ // linked to javascript to load the questions to scramble the words
     {
         word: "Cells",
         hint: "The building blocks of life"

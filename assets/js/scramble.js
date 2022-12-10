@@ -23,11 +23,11 @@ const initTimer = maxTime => {
         alert(`Time off! ${correctWord.toUpperCase()} was the correct word`); // once time is up giving the correct answer
         initGame();
     }, 1000);
-}
+};
 // science words are mixed up and made into random order
 const initGame = () => {
     initTimer(1000);
-    let randomObj = words[Math.floor(Math.random() * words.length)]; // 
+    let randomObj = words[Math.floor(Math.random() * words.length)]; // words are linked to questions and hints
     let wordArray = randomObj.word.split("");
     for (let i = wordArray.length - 1; i > 0; i--) {
         let j = Math.floor(Math.random() * (i + 1));
@@ -35,7 +35,7 @@ const initGame = () => {
     }
     wordText.innerText = wordArray.join("");
     hintText.innerText = randomObj.hint;
-    correctWord = randomObj.word.toLowerCase();;
+    correctWord = randomObj.word.toLowerCase();
     inputField.value = "";
     inputField.setAttribute("maxlength", correctWord.length);
 };
