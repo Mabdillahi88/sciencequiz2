@@ -76,7 +76,8 @@ An interactive and user-friendly version of the two well-known games was what th
 1. I want the game's rules to be simple to grasp.
 2. I desire to input my name and have it shown on the gaming screen.
 3. I want to be able to play the game using both the keyboard and the mouse.
-4. I need to be able to observe the letters I've correctly predicted so far and how many more rounds I have to guess.
+4. I need to be able to observe the letters I've correctly predicted so far and how many more rounds I    
+   have to guess.
 5. I want to know how I fared after identifying the sentence.
 6. I want to see the word that I attempted to guess.
 7. I want to be capable to use desktop, tablet, and mobile devices to play the game.
@@ -87,7 +88,8 @@ An interactive and user-friendly version of the two well-known games was what th
 
 10. I want the game to be simple for the user to grasp. 
 11. I expect optimal responsiveness in my game.
-12. If a user types in a URL that is invalid, I want them to land on a 404 error page instead of having to utilize their browser's back button.
+12. If a user types in a URL that is invalid, I want them to land on a 404 error page instead of having  
+    to utilize their browser's back button.
 13. I desire that users be able to get in touch with me and offer their comments.
 
 ## Design
@@ -256,7 +258,111 @@ Google Chrome Developer Tools Device Toggling was utilized to evaluate all webpa
   - Googe Chrome 
   - Firefox Browser 
 
-  
+  ### Testing user stories
+
+1. I want the game's rules to be simple to grasp.
+
+| **Feature**       | **Action**        | **Expected Result**                  | **Actual Result** |
+| ----------------- | ----------------- | ------------------------------------ | ----------------- |
+|  Above the game  |  go to game page and navigating to above the game | instruction of the game given  | instruction of the game is shown |
+
+![map](docs/features/map.JPG)
 
 
+2. I desire to input my name and have it shown on the gaming screen.
 
+| **Feature**       | **Action**        | **Expected Result**                  | **Actual Result** |
+| ----------------- | ----------------- | ------------------------------------ | ----------------- |
+|  ***** | ************** |************** | ************** |
+
+![map](docs/features/map.JPG)
+
+3. I want to be able to play the game using both the keyboard and the mouse.
+
+| **Feature**       | **Action**        | **Expected Result**                  | **Actual Result** |
+| ----------------- | ----------------- | ------------------------------------ | ----------------- |
+|  ***** | ************** |************** | ************** |
+
+![map](docs/features/map.JPG)
+
+4. I need to be able to observe the letters I've correctly predicted so far and how many more rounds I    
+   have to guess.
+
+| **Feature**       | **Action**        | **Expected Result**                  | **Actual Result** |
+| ----------------- | ----------------- | ------------------------------------ | ----------------- |
+|  ***** | ************** |************** | ************** |
+
+![map](docs/features/map.JPG)
+
+5. I want to know how I fared after identifying the sentence.
+
+| **Feature**       | **Action**        | **Expected Result**                  | **Actual Result** |
+| ----------------- | ----------------- | ------------------------------------ | ----------------- |
+|  ***** | ************** |************** | ************** |
+
+![map](docs/features/map.JPG)
+
+6. I want to see the word that I attempted to guess.
+
+| **Feature**       | **Action**        | **Expected Result**                  | **Actual Result** |
+| ----------------- | ----------------- | ------------------------------------ | ----------------- |
+|  ***** | ************** |************** | ************** |
+
+![map](docs/features/map.JPG)
+
+7. I want to be capable to use desktop, tablet, and mobile devices to play the game.
+
+| **Feature**       | **Action**        | **Expected Result**                  | **Actual Result** |
+| ----------------- | ----------------- | ------------------------------------ | ----------------- |
+|  ***** | ************** |************** | ************** |
+
+![map](docs/features/map.JPG)
+
+8. I want to be able to communicate with the developer
+
+| **Feature**       | **Action**        | **Expected Result**                  | **Actual Result** |
+| ----------------- | ----------------- | ------------------------------------ | ----------------- |
+|  ***** | ************** |************** | ************** |
+
+![map](docs/features/map.JPG)
+
+9. I want confirmation that my message was sent.
+
+| **Feature**       | **Action**        | **Expected Result**                  | **Actual Result** |
+| ----------------- | ----------------- | ------------------------------------ | ----------------- |
+|  ***** | ************** |************** | ************** |
+
+![map](docs/features/map.JPG)
+
+10. I want the game to be simple for the user to grasp. 
+
+| **Feature**       | **Action**        | **Expected Result**                  | **Actual Result** |
+| ----------------- | ----------------- | ------------------------------------ | ----------------- |
+|  ***** | ************** |************** | ************** |
+
+![map](docs/features/map.JPG)
+
+11. I expect optimal responsiveness in my game.
+
+| **Feature**       | **Action**        | **Expected Result**                  | **Actual Result** |
+| ----------------- | ----------------- | ------------------------------------ | ----------------- |
+|  ***** | ************** |************** | ************** |
+
+![map](docs/features/map.JPG)
+
+12. If a user types in a URL that is invalid, I want them to land on a 404 error page instead of having  
+    to utilize their browser's back button.
+
+| **Feature**       | **Action**        | **Expected Result**                  | **Actual Result** |
+| ----------------- | ----------------- | ------------------------------------ | ----------------- |
+|  ***** | ************** |************** | ************** |
+
+![map](docs/features/map.JPG)
+
+13. I desire that users be able to get in touch with me and offer their comments.
+
+| **Feature**       | **Action**        | **Expected Result**                  | **Actual Result** |
+| ----------------- | ----------------- | ------------------------------------ | ----------------- |
+|  ***** | ************** |************** | ************** |
+
+![map](docs/features/map.JPG)
