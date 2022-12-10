@@ -306,6 +306,25 @@ The website was tested on the following devices:
 - iPhone 5/SE
 - iPad air
 
+
+### JavaScript Validation
+
+The Javascript files were checked using JSHint JS Validation Service. No major problems were discovered.
+
+
+# Science guess game
+![validation-guess](#)
+![validation-guess](#)
+
+# Science scramble game
+![validation-scramble](assets/docs/features/validations/validation_science_scramble_jshint.JPG)
+![validation-scramble](assets/docs/features/validations/validation_science_scramble_jshint2.JPG)
+
+# Science contact game
+![validation-contact](assets/docs/features/validations/validation_contact_us_jshint.JPG)
+
+
+
 Google Chrome Developer Tools Device Toggling was utilized to evaluate all webpages across all feasible device combinations
 
 ### Browser compatibility

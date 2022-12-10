@@ -34,4 +34,4 @@ const wordList = [
       word: "fertilisation",
       hint: "when sperm and egg cell fused together"
   },
-]
+];
