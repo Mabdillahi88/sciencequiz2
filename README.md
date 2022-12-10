@@ -70,3 +70,15 @@ An interactive and user-friendly version of the two well-known games was what th
 - A responsive website that enables game play on any device
 - Links and features that operate as intended
 - A simple approach to get in touch with the creator and offer feedback
+
+## User Stories
+
+1. I want the game's rules to be simple to grasp.
+2. I desire to input my name and have it shown on the gaming screen.
+3. I want to be able to play the game using both the keyboard and the mouse.
+4. I need to be able to observe the letters I've correctly predicted so far and how many more rounds I have to guess.
+5. I want to know how I fared after identifying the sentence.
+6. I want to see the word that I attempted to guess.
+7. I want to be capable to use desktop, tablet, and mobile devices to play the game.
+8. I want to be able to communicate with the developer
+9. I want confirmation that my message was sent.
