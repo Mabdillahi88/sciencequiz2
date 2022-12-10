@@ -239,3 +239,24 @@ user stories covered:
 
 
 
+
+## Testing
+
+### Performing tests on various devices 
+The website was tested on the following devices:
+- Surface Pro 7 
+- iPhone 5/SE
+- iPad air
+
+Google Chrome Developer Tools Device Toggling was utilized to evaluate all webpages across all feasible device combinations
+
+### Browser compatibility
+
+- The following browsers have been put to the test:
+  - Googe Chrome 
+  - Firefox Browser 
+
+  
+
+
+
