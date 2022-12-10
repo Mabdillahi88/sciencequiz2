@@ -82,3 +82,14 @@ An interactive and user-friendly version of the two well-known games was what th
 7. I want to be capable to use desktop, tablet, and mobile devices to play the game.
 8. I want to be able to communicate with the developer
 9. I want confirmation that my message was sent.
+
+### Site Owner
+
+10. I want the game to be simple for the user to grasp. 
+11. I expect optimal responsiveness in my game.
+12. If a user types in a URL that is invalid, I want them to land on a 404 error page instead of having to utilize their browser's back button.
+13. I desire that users be able to get in touch with me and offer their comments.
+
+## Design
+
+### Colour Scheme
