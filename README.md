@@ -48,3 +48,12 @@ An interactive and user-friendly version of the two well-known games was what th
 
 - Play a fun game with easy rules that keeps you interested.
 - Push themselves to learn new words 
+
+### Site owner goals
+
+- Create a fun and engaging game
+- Make the website aesthetically pleasing
+- Make it simple to browse
+- Make it fully responsive and accessible.
+
+## User Experience
