@@ -281,7 +281,7 @@ Google Chrome Developer Tools Device Toggling was utilized to evaluate all webpa
 
 | **Feature**       | **Action**        | **Expected Result**                  | **Actual Result** |
 | ----------------- | ----------------- | ------------------------------------ | ----------------- |
-|  ***** | ************** |************** | ************** |
+|  letters will be present in the text boxes | letters will appear in the text box |letters will appear in the text box as users type the correct letters | letters appear in the text box if correct |
 
 ![map](docs/features/map.JPG)
 
@@ -289,7 +289,7 @@ Google Chrome Developer Tools Device Toggling was utilized to evaluate all webpa
 
 | **Feature**       | **Action**        | **Expected Result**                  | **Actual Result** |
 | ----------------- | ----------------- | ------------------------------------ | ----------------- |
-|  ***** | ************** |************** | ************** |
+|  correct answer will be shown in the text box | correct letters will be visible in text box |correct answer will start to appear in the text box | correct answer appear in text box |
 
 ![map](docs/features/map.JPG)
 
@@ -297,7 +297,7 @@ Google Chrome Developer Tools Device Toggling was utilized to evaluate all webpa
 
 | **Feature**       | **Action**        | **Expected Result**                  | **Actual Result** |
 | ----------------- | ----------------- | ------------------------------------ | ----------------- |
-|  ***** | ************** |************** | ************** |
+|  number of attempts will be present underneath the unknown word | number of attempts left will start to decrease as user engages with game | number of attempts will highlighted | number of attempts |
 
 ![map](docs/features/map.JPG)
 
