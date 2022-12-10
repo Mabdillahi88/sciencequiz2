@@ -8,6 +8,7 @@ document
       event.preventDefault();
 
       // login details for email js
+      
       const serviceID = "service_ucprvlr"; 
       const templateID = "template_nm94uz8";
 
@@ -24,7 +25,8 @@ document
       );
     });
 
-    // to make nav links more responsive
+// This is not my code but modified it and I have credited it  the readme file
+// to make nav links more responsive
     function myFunction() {
   var x = document.getElementById("myNavbar");
   if (x.className === "navbar") {
