@@ -259,7 +259,7 @@ Google Chrome Developer Tools Device Toggling was utilized to evaluate all webpa
 
   ### Testing user stories
 
-1. I want the game's rules to be simple to grasp.
+1. As a first-time user, I want the game's rules to be simple to grasp.
 
 | **Feature**       | **Action**        | **Expected Result**                  | **Actual Result** |
 | ----------------- | ----------------- | ------------------------------------ | ----------------- |
@@ -268,7 +268,7 @@ Google Chrome Developer Tools Device Toggling was utilized to evaluate all webpa
 ![map](docs/features/map.JPG)
 
 
-2. I want to be able to play the game using the keyboard
+2. As a first-time user, I want to be able to play the game using the keyboard
 
 | **Feature**       | **Action**        | **Expected Result**                  | **Actual Result** |
 | ----------------- | ----------------- | ------------------------------------ | ----------------- |
@@ -276,7 +276,7 @@ Google Chrome Developer Tools Device Toggling was utilized to evaluate all webpa
 
 ![map](docs/features/map.JPG)
 
-3. I need to be able to observe the letters I've correctly predicted so far and how many more rounds I    
+3. As a first-time user, I need to be able to observe the letters I've correctly predicted so far and how many more rounds I    
    have to guess.
 
 | **Feature**       | **Action**        | **Expected Result**                  | **Actual Result** |
@@ -285,7 +285,7 @@ Google Chrome Developer Tools Device Toggling was utilized to evaluate all webpa
 
 ![map](docs/features/map.JPG)
 
-4. I want to know how I fared after identifying the sentence.
+4. As a first-time user, I want to know how I fared after identifying the sentence.
 
 | **Feature**       | **Action**        | **Expected Result**                  | **Actual Result** |
 | ----------------- | ----------------- | ------------------------------------ | ----------------- |
@@ -293,7 +293,7 @@ Google Chrome Developer Tools Device Toggling was utilized to evaluate all webpa
 
 ![map](docs/features/map.JPG)
 
-5. I want to see the word that I attempted to guess.
+5. As a first-time user, I want to see the word that I attempted to guess.
 
 | **Feature**       | **Action**        | **Expected Result**                  | **Actual Result** |
 | ----------------- | ----------------- | ------------------------------------ | ----------------- |
@@ -301,7 +301,7 @@ Google Chrome Developer Tools Device Toggling was utilized to evaluate all webpa
 
 ![map](docs/features/map.JPG)
 
-6. I want to be capable to use desktop, tablet, and mobile devices to play the game.
+6. As a first-time user, I want to be capable to use desktop, tablet, and mobile devices to play the game.
 
 | **Feature**       | **Action**        | **Expected Result**                  | **Actual Result** |
 | ----------------- | ----------------- | ------------------------------------ | ----------------- |
@@ -309,7 +309,7 @@ Google Chrome Developer Tools Device Toggling was utilized to evaluate all webpa
 
 ![map](docs/features/map.JPG)
 
-7. I want to be able to communicate with the developer
+7. As a first-time user, I want to be able to communicate with the developer
 
 | **Feature**       | **Action**        | **Expected Result**                  | **Actual Result** |
 | ----------------- | ----------------- | ------------------------------------ | ----------------- |
@@ -317,43 +317,43 @@ Google Chrome Developer Tools Device Toggling was utilized to evaluate all webpa
 
 ![map](docs/features/map.JPG)
 
-8. I want confirmation that my message was sent.
+8. As a first-time user, I want confirmation that my message was sent.
 
 | **Feature**       | **Action**        | **Expected Result**                  | **Actual Result** |
 | ----------------- | ----------------- | ------------------------------------ | ----------------- |
-|  ***** | ************** |************** | ************** |
+|  success message pops up | once you submit the form, a message will appear to highlight receipt of sent form  | success message will pop up | success message will pop |
 
 ![map](docs/features/map.JPG)
 
-9. I want the game to be simple for the user to grasp. 
+9. As a returning user, I want the game to be simple for the user to grasp. 
 
 | **Feature**       | **Action**        | **Expected Result**                  | **Actual Result** |
 | ----------------- | ----------------- | ------------------------------------ | ----------------- |
-|  ***** | ************** |************** | ************** |
+|  Above the game  |  go to game page and navigating to above the game | instruction of the game given  | instruction of the game is shown |
 
 ![map](docs/features/map.JPG)
 
-10. I expect optimal responsiveness in my game.
+10. As a returning user, I expect optimal responsiveness in my game.
 
 | **Feature**       | **Action**        | **Expected Result**                  | **Actual Result** |
 | ----------------- | ----------------- | ------------------------------------ | ----------------- |
-|  ***** | ************** |************** | ************** |
+|  game is visible on different devices | open the game using different devices | game is responsive on different devices | game is responsive on range of devices |
 
 ![map](docs/features/map.JPG)
 
-11. If a user types in a URL that is invalid, I want them to land on a 404 error page instead of having  
+11. As a returning user, If a user types in a URL that is invalid, I want them to land on a 404 error page instead of having  
     to utilize their browser's back button.
 
 | **Feature**       | **Action**        | **Expected Result**                  | **Actual Result** |
 | ----------------- | ----------------- | ------------------------------------ | ----------------- |
-|  ***** | ************** |************** | ************** |
+|  404 page will appear | wrong webpage is typed and user will direct to 404 | 404 page will appear | 404 page will appear |
 
 ![map](docs/features/map.JPG)
 
-12. I desire that users be able to get in touch with me and offer their comments.
+12. As a returning user, I desire that users be able to get in touch with me and offer their comments.
 
 | **Feature**       | **Action**        | **Expected Result**                  | **Actual Result** |
 | ----------------- | ----------------- | ------------------------------------ | ----------------- |
-|  ***** | ************** |************** | ************** |
+|  contact form | using the navbar click on contact us. Fill out the form and press submit |contact form will open and form will appear.  | contact us tab will open contact form to be filled out by user |
 
 ![map](docs/features/map.JPG)
