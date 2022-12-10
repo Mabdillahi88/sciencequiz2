@@ -37,7 +37,10 @@
 10. [Deployment](#deployment)
 11. [Credits](#credits)
 12. [Acknowledgements](#acknowledgements)
- Goals
+
+
+
+## Project Goals
 
 An interactive and user-friendly version of the two well-known games was what this project set out to do. Word scramble and Science Quiz
 
