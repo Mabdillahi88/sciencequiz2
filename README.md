@@ -63,7 +63,7 @@ An interactive and user-friendly version of the two well-known games was what th
 - Anyone who like scramble and guessing activities may play the game.
 - Anyone looking to have fun while playing a game with straightforward rules.
 
-### User Expectations and Requirements
+### User Expectations
 
 - Simple navigation, clear information display
 - Rules of the game that are simple to comprehend.
