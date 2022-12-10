@@ -224,7 +224,9 @@ user stories covered:
 
 
 ### 404 error page
-- The site has been given a 404 error page which is displayed if the user enters a url that does not exist.
-- Contains return to the main screen button
-- User stories covered: 15
+
+- If a user inputs a URL that is invalid, a 404 error page will be shown on the website.
+- Has a button to return to the main screen.
+
+- User stories covered: 
 
