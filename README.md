@@ -112,8 +112,16 @@ The website's layout was created to be simple to understand and use. Every game 
 
 ### The game's screens are as follows:
 
-#### Science word scramble
- - Word scramble screen consist of empty boxes for the chosen letters to occupy. 
- - Underneath is space for wrong letters chosen and how guesses attempted. 
- - Underneath that is buttons which will take you to the next chosen scientific term to guess.
+#### Science word guess
+- The chosen letters are placed in vacant boxes on the word guess screen.
+- There is room below for incorrect letter selections and attempts at guessing.
+- You are given a hint to help you guess the word.
+- Below that are buttons that will direct you to the following selected scientific phrase to guess.
 
+#### Science word guess
+- You are given a hint to aid with word guessing after the chosen words are scrambled and placed in the   
+  center of the screen.
+- A timer is provided to keep the user focused and engaged. - A space is provided below for inaccurate
+  letter choices and guesses.
+- The buttons below that will direct you to either check the word or select a different scientific phrase.
+- A reset button to reload the page is located beneath it.
