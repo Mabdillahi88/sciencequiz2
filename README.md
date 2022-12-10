@@ -138,6 +138,8 @@ The website's layout was created to be simple to understand and use. Every game 
 # science guessing game
 ![wireframes-home](assets/docs/features/wireframes/wireframe_science_guess.JPG)
 
+# science contact us
+![wireframes-home](assets/docs/features/wireframes/wireframe_contact_us.JPG)
 
 
 
