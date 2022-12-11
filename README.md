@@ -181,11 +181,13 @@ The website's layout was created to be simple to understand and use. Every game 
 
 ### Navigation Bar
 
+
+
 - Appeared on every page (3 pages).
 - Users can quickly traverse it, and the link to the page they are now on is emphasized. 
 - The navbar provides links to the science scrambe, science guessing game and contact us page. 
 - It is fully responsive. On smaller devices, it converts into a toggler (hamburger menu icon).
-
+- user stories covered: 1
 ![navbar](assets/docs/features/navbar_features.JPG)
 
 ### Science scramble screen
@@ -199,7 +201,7 @@ The website's layout was created to be simple to understand and use. Every game 
  - New word and check word button is underneath the text box to enable the user to pick a new word or 
    check the answer they have typed in the text box.
 - Reset button is added underneath to reset the whole game.
-
+user stories covered: 2, 3, 4, 5, 6, 7, 10, 11
 ![science_scramble](assets/docs/features/science_scramble_features.JPG)
 
 ### Science guess screen
@@ -210,7 +212,7 @@ The website's layout was created to be simple to understand and use. Every game 
 -  Space is given to inform the user number of attemps left to identify the chosen word. 
 -  Space is given to record the incorrect letters typed at guessing.
 -  The button (new scientific term) will direct you to select a different scientific term.
-
+user stories covered: 2, 3, 4, 5, 6, 7, 10 ,11
 ![science_guess](assets/docs/features/science_guess_features.JPG)
 
 ### Contact us page 
@@ -221,7 +223,7 @@ The website's layout was created to be simple to understand and use. Every game 
 - Once comment is sent, success message will pop for confirmation.
 - scroll has been added to enable user to send or reset the page.
 - Validation is added to ensure all the key text boxes are required to fill in for message to be sent out
-
+- user stories covered: 8, 9, 13
 ![contact_us1](assets/docs/features/contact_us_features1.JPG)
 ![contact_us2](assets/docs/features/contact_us_features2.JPG)
 ![contact_us3](assets/docs/features/contact_us_features3.JPG)
@@ -231,7 +233,7 @@ The website's layout was created to be simple to understand and use. Every game 
 
 - If a user inputs a URL that is invalid, a 404 error page will be shown on the website.
 - Has a button to return to the main screen.
-
+- user stories covered: 12
 ![404](assets/docs/features/user_stories11.JPG)
 
  ## Validation
@@ -310,6 +312,7 @@ The website was tested on the following devices:
 
 The Javascript files were checked using JSHint JS Validation Service. No major problems were discovered.
 
+Exceptions = wordlist and my functions variables are linked to my questions in questions_quiz.js and nav bar script 
 
 # Science guess game
 ![validation-guess](assets/docs/features/validations/validation_science_guess_questions_jshint.JPG)
@@ -317,10 +320,12 @@ The Javascript files were checked using JSHint JS Validation Service. No major p
 
 # Science scramble game
 
-Exceptions = write about any unused or undefined variables
+Exceptions = words and myfunctions variables are linked to my questions in questions_scramble  and nav bar script
 
 ![validation-scramble](assets/docs/features/validations/validation_science_scramble_jshint.JPG)
 ![validation-scramble](assets/docs/features/validations/validation_science_scramble_jshint2.JPG)
+
+Exceptions = email js and myfunctions variables are linked to my questions in contact_js and nav bar script
 
 # Science contact game
 ![validation-contact](assets/docs/features/validations/validation_contact_us_jshint.JPG)
@@ -467,7 +472,18 @@ The website was deployed using GitHub Pages by undertaken these stages:
 4. After the webpage refreshes automaticaly you will se a ribbon on the top saying: "Your site is published at https://mabdillahi88.github.io/CI_pp2ScienceQuiz/
 
 
-How to fork it and clone it
+### Forking the GitHub Repository
+1. Go to the GitHub repository
+2. Press on Fork button in top right corner
+
+### Making a Local Clone
+1. Go to the GitHub repository 
+2. Find the Code button above the list of files and press it
+3. Highlight the "HTTPS" button to clone with HTTPS and copy the link
+4. Open Git Bash
+5. Change the current working directory to the one where you want the cloned directory
+6. Type git clone and paste the URL from the clipboard ($ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY)
+7. Press Enter to create your local clone
 
 ## Credits
 

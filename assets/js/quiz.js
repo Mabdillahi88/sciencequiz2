@@ -1,5 +1,6 @@
 //selecting all required elements
 // This is not my code but modified it and I have credited it  the readme file
+// wordlist and my functions variables are linked to my questions in questions_quiz.js and nav bar script
 
 const facts = document.querySelector(".facts"),
 assistance = document.querySelector(".assistance span"),

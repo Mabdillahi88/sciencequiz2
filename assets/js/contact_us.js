@@ -1,5 +1,7 @@
 
 // This is not my code but modified it and I have credited it  the readme file
+// email js and myfunctions variables are linked to my questions in contact_js and nav bar script
+
 
 document
     .getElementById("contactFormNew")

@@ -1,6 +1,6 @@
 //selecting all required elements
 // This is not my code but modified it and I have credited it  the readme file
-
+// words and myfunctions variables are linked to my questions in questions_scramble  and nav bar script
 const wordText = document.querySelector(".keywords"),
 helpFacts = document.querySelector(".help-hint span"),
 almost = document.querySelector(".time-remaining b"),
