@@ -101,7 +101,7 @@ The website was created to provide users a visual impression of the online games
 
 For the colour theme, yellow is a warm, primary colour with a lot of energy that may make your website appear welcoming and cozy. Pink is a vibrant, striking color that may be used in the ideal combination to draw viewers to your website as soon as it loads.
 
-![Colour scheme](assets/docs/colour%20scheme.JPG)
+![Colour scheme](assets/docs/features/colour%20scheme.JPG)
 
 ### Fonts 
 
