@@ -1,5 +1,4 @@
 
-// all the questions and hints that will be used during this game
 // This is not my code but modified it and I have credited it  the readme file
 
 document
@@ -16,7 +15,7 @@ document
       emailjs.sendForm(serviceID, templateID, this).then(
         (response) => {
           console.log("SUCCESS!", response.status, response.text);
-          alert("SUCCESS!");
+          alert("SUCCESS!"); 
         },
         (error) => {
           console.log("FAILED...", error);
@@ -36,4 +35,3 @@ document
   }
 }
 
-    

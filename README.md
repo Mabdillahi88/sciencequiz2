@@ -272,8 +272,10 @@ The W3C Jigsaw CSS Validation Service was used to review the website's CSS. None
 
 The WAVE WebAIM online accessibility evaluation tool was used to determine if the website complied with stringent accessibility standards. On every page, there are no errors.
 
+Exceptions = the input code that requires a label is linked to javascript. I have tried everything to add a label but unable to pass wave accessibility validation
+
 # Science guess game
-![validation-guess](#)
+![validation-guess](assets/docs/features/validations/validation_accessibility_science_guess.JPG)
 
 # Science scramble game
 ![validation-scramble](assets/docs/features/validations/validation_accessibility_science_scramble.JPG)
@@ -314,6 +316,9 @@ The Javascript files were checked using JSHint JS Validation Service. No major p
 ![validation-guess](assets/docs/features/validations/validation_science_guess_jshint2.JPG)
 
 # Science scramble game
+
+Exceptions = write about any unused or undefined variables
+
 ![validation-scramble](assets/docs/features/validations/validation_science_scramble_jshint.JPG)
 ![validation-scramble](assets/docs/features/validations/validation_science_scramble_jshint2.JPG)
 
@@ -461,6 +466,8 @@ The website was deployed using GitHub Pages by undertaken these stages:
 3. For the source select Branch: master
 4. After the webpage refreshes automaticaly you will se a ribbon on the top saying: "Your site is published at https://mabdillahi88.github.io/CI_pp2ScienceQuiz/
 
+
+How to fork it and clone it
 
 ## Credits
 

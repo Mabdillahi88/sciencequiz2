@@ -17,7 +17,7 @@ let word, maxGuesses, incorrectLetters = [], correctLetters = [];
 // letters pressed by user are displayed
 
 function randomWord() {
-    let ranItem = wordList[Math.floor(Math.random() * wordList.length)];
+    let ranItem = wordList[Math.floor(Math.random() * wordList.length)]; // word is linked to the questions on the questions_quiz.js 
     word = ranItem.word;
     maxGuesses = word.length >= 5 ? 8 : 6;
     correctLetters = []; incorrectLetters = [];
