@@ -42,7 +42,7 @@
 
 ## Project Goals
 
-An interactive and user-friendly version of the two well-known games was what this project set out to do. Word scramble and Science Quiz
+An interactive and user-friendly version of the two well-known games was what this project set out to do. Word scramble and Science guess game
 
 ### User Goals
 
