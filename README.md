@@ -299,15 +299,6 @@ Google Lighthouse in the Google Chrome Developer Tools was used to assess the we
 # Science contact game
 ![validation-contact](assets/docs/features/validations/validation_lighthouse_contact_us.JPG)
 
-## Testing
-
-### Performing tests on various devices 
-The website was tested on the following devices:
-- Surface Pro 7 
-- iPhone 5/SE
-- iPad air
-
-
 ### JavaScript Validation
 
 The Javascript files were checked using JSHint JS Validation Service. No major problems were discovered.
@@ -330,7 +321,13 @@ Exceptions = email js and myfunctions variables are linked to my questions in co
 # Science contact game
 ![validation-contact](assets/docs/features/validations/validation_contact_us_jshint.JPG)
 
+## Testing
 
+### Performing tests on various devices 
+The website was tested on the following devices:
+- Surface Pro 7 
+- iPhone 5/SE
+- iPad air
 
 Google Chrome Developer Tools Device Toggling was utilized to evaluate all webpages across all feasible device combinations
 
