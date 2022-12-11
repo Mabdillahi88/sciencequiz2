@@ -73,24 +73,25 @@ An interactive and user-friendly version of the two well-known games was what th
 
 ## User Stories
 
-1. I want the game's rules to be simple to grasp.
-2. I want to be able to play the game using the keyboard
-3. I need to be able to observe the letters I've correctly predicted so far and how many more rounds I    
-   have to guess.
-4. I want to know how I fared after identifying the sentence.
-5. I want to see the word that I attempted to guess.
-6. I want to be capable to use desktop, tablet, and mobile devices to play the game.
-7. As a first-time user, I want to be able to communicate with the developer using the scroll down 
+1. As a first-time user, I want to navigate between the different pages.
+2. As a first-time user, I want the game's rules to be simple to grasp.
+3. As a first-time user, I want to be able to play the game using the keyboard
+4. As a first-time user, I need to be able to observe the letters I've correctly predicted so far and how 
+   many more rounds I have to guess.
+5. As a first-time user, I want to know how I fared after identifying the sentence.
+6. As a first-time user, I want to see the word that I attempted to guess.
+7. As a first-time user, I want to be capable to use desktop, tablet, and mobile devices to play the game.
+8. As a first-time user, I want to be able to communicate with the developer using the scroll down 
    feature.
-8. I want confirmation that my message was sent.
+9. As a first-time user, I want confirmation that my message was sent.
 
 ### Site Owner
 
-9. I want the game to be simple for the user to grasp. 
-10. I expect optimal responsiveness in my game.
-11. If a user types in a URL that is invalid, I want them to land on a 404 error page instead of having  
+10. I want the game to be simple for the user to grasp. 
+11. I expect optimal responsiveness in my game.
+12. If a user types in a URL that is invalid, I want them to land on a 404 error page instead of having  
     to utilize their browser's back button.
-12. I desire that users be able to get in touch with me and offer their comments.
+13. I desire that users be able to get in touch with me and offer their comments.
 
 ## Design
 
@@ -179,7 +180,6 @@ The website's layout was created to be simple to understand and use. Every game 
 ## Features
 
 ### Navigation Bar
-user stories covered:
 
 - Appeared on every page (3 pages).
 - Users can quickly traverse it, and the link to the page they are now on is emphasized. 
@@ -189,7 +189,7 @@ user stories covered:
 ![navbar](assets/docs/features/navbar_features.JPG)
 
 ### Science scramble screen
-user stories covered:
+
 
  - Instructions are clearly stated at the top of the game.
  - The chosen word is scramble.
@@ -203,7 +203,6 @@ user stories covered:
 ![science_scramble](assets/docs/features/science_scramble_features.JPG)
 
 ### Science guess screen
-user stories covered:
 
  - Instructions are clearly stated at the top of the game.
  - The chosen letters are placed in vacant boxes on the word guess screen.
@@ -215,7 +214,6 @@ user stories covered:
 ![science_guess](assets/docs/features/science_guess_features.JPG)
 
 ### Contact us page 
-user stories covered:
 
 - User can give feedback on the game. 
 - EmailJS was used to send a message and user data in an email to the developer.
@@ -230,7 +228,6 @@ user stories covered:
 
 
 ### 404 error page
-user stories covered:
 
 - If a user inputs a URL that is invalid, a 404 error page will be shown on the website.
 - Has a button to return to the main screen.
@@ -313,8 +310,8 @@ The Javascript files were checked using JSHint JS Validation Service. No major p
 
 
 # Science guess game
-![validation-guess](#)
-![validation-guess](#)
+![validation-guess](assets/docs/features/validations/validation_science_guess_questions_jshint.JPG)
+![validation-guess](assets/docs/features/validations/validation_science_guess_jshint2.JPG)
 
 # Science scramble game
 ![validation-scramble](assets/docs/features/validations/validation_science_scramble_jshint.JPG)
@@ -335,7 +332,17 @@ Google Chrome Developer Tools Device Toggling was utilized to evaluate all webpa
 
   ### Testing user stories
 
-1. As a first-time user, I want the game's rules to be simple to grasp.
+
+1. As a first-time user, I want to navigate between the different pages.
+
+| **Feature**       | **Action**        | **Expected Result**                  | **Actual Result** |
+| ----------------- | ----------------- | ------------------------------------ | ----------------- |
+|  navigation bar at the bottom  |  click on the game or contact page from the navigation bar | clicking on the name of the game or contact page transport you to the correct page | clicking on the name transports you to the game or contact page |
+
+![nav](assets/docs/features/user_stories13.JPG)
+
+
+2. As a first-time user, I want the game's rules to be simple to grasp.
 
 | **Feature**       | **Action**        | **Expected Result**                  | **Actual Result** |
 | ----------------- | ----------------- | ------------------------------------ | ----------------- |
@@ -345,7 +352,7 @@ Google Chrome Developer Tools Device Toggling was utilized to evaluate all webpa
 ![rules](assets/docs/features/user_stories1.1.JPG)
 
 
-2. As a first-time user, I want to be able to play the game using the keyboard
+3. As a first-time user, I want to be able to play the game using the keyboard
 
 | **Feature**       | **Action**        | **Expected Result**                  | **Actual Result** |
 | ----------------- | ----------------- | ------------------------------------ | ----------------- |
@@ -354,7 +361,7 @@ Google Chrome Developer Tools Device Toggling was utilized to evaluate all webpa
 ![keyboard](assets/docs/features/user_stories2.JPG)
 ![keyboard](assets/docs/features/user_stories2.1.JPG)
 
-3. As a first-time user, I need to be able to observe the letters I've correctly predicted so far and how many more rounds I have to guess.
+4. As a first-time user, I need to be able to observe the letters I've correctly predicted so far and how many more rounds I have to guess.
 
 | **Feature**       | **Action**        | **Expected Result**                  | **Actual Result** |
 | ----------------- | ----------------- | ------------------------------------ | ----------------- |
@@ -362,7 +369,7 @@ Google Chrome Developer Tools Device Toggling was utilized to evaluate all webpa
 
 ![rounds](assets/docs/features/user_stories3.JPG)
 
-4. As a first-time user, I want to know how I fared after identifying the sentence.
+5. As a first-time user, I want to know how I fared after identifying the sentence.
 
 | **Feature**       | **Action**        | **Expected Result**                  | **Actual Result** |
 | ----------------- | ----------------- | ------------------------------------ | ----------------- |
@@ -371,7 +378,7 @@ Google Chrome Developer Tools Device Toggling was utilized to evaluate all webpa
 
 ![identify](assets/docs/features/user_stories2.JPG)
 
-5. As a first-time user, I want to see the word that I attempted to guess.
+6. As a first-time user, I want to see the word that I attempted to guess.
 
 | **Feature**       | **Action**        | **Expected Result**                  | **Actual Result** |
 | ----------------- | ----------------- | ------------------------------------ | ----------------- |
@@ -379,7 +386,7 @@ Google Chrome Developer Tools Device Toggling was utilized to evaluate all webpa
 
 ![chances](assets/docs/features/user_stories5.JPG)
 
-6. As a first-time user, I want to be capable to use desktop, tablet, and mobile devices to play the game.
+7. As a first-time user, I want to be capable to use desktop, tablet, and mobile devices to play the game.
 
 | **Feature**       | **Action**        | **Expected Result**                  | **Actual Result** |
 | ----------------- | ----------------- | ------------------------------------ | ----------------- |
@@ -387,7 +394,7 @@ Google Chrome Developer Tools Device Toggling was utilized to evaluate all webpa
 
 ![devices](assets/docs/features/user_stories6.JPG)
 
-7. As a first-time user, I want to be able to communicate with the developer using the scroll down feature.
+8. As a first-time user, I want to be able to communicate with the developer using the scroll down feature.
 
 | **Feature**       | **Action**        | **Expected Result**                  | **Actual Result** |
 | ----------------- | ----------------- | ------------------------------------ | ----------------- |
@@ -396,7 +403,7 @@ Google Chrome Developer Tools Device Toggling was utilized to evaluate all webpa
 ![contact_us](assets/docs/features/user_stories7.JPG)
 ![scroll_down](assets/docs/features/user_stories7.1.JPG)
 
-8. As a first-time user, I want confirmation that my message was sent.
+9. As a first-time user, I want confirmation that my message was sent.
 
 | **Feature**       | **Action**        | **Expected Result**                  | **Actual Result** |
 | ----------------- | ----------------- | ------------------------------------ | ----------------- |
@@ -404,7 +411,7 @@ Google Chrome Developer Tools Device Toggling was utilized to evaluate all webpa
 
 ![message](assets/docs/features/user_stories8.JPG)
 
-9. As a returning user, I want the game to be simple for the user to grasp. 
+10. As a returning user, I want the game to be simple for the user to grasp. 
 
 | **Feature**       | **Action**        | **Expected Result**                  | **Actual Result** |
 | ----------------- | ----------------- | ------------------------------------ | ----------------- |
@@ -413,7 +420,7 @@ Google Chrome Developer Tools Device Toggling was utilized to evaluate all webpa
 ![rules](assets/docs/features/user_stories1.JPG)
 ![rules](assets/docs/features/user_stories1.1.JPG)
 
-10. As a returning user, I expect optimal responsiveness in my game.
+11. As a returning user, I expect optimal responsiveness in my game.
 
 | **Feature**       | **Action**        | **Expected Result**                  | **Actual Result** |
 | ----------------- | ----------------- | ------------------------------------ | ----------------- |
@@ -421,7 +428,7 @@ Google Chrome Developer Tools Device Toggling was utilized to evaluate all webpa
 
 ![devices](assets/docs/features/user_stories6.JPG)
 
-11. As a returning user, If a user types in a URL that is invalid, I want them to land on a 404 error page instead of having  
+12. As a returning user, If a user types in a URL that is invalid, I want them to land on a 404 error page instead of having  
     to utilize their browser's back button.
 
 | **Feature**       | **Action**        | **Expected Result**                  | **Actual Result** |
@@ -430,7 +437,7 @@ Google Chrome Developer Tools Device Toggling was utilized to evaluate all webpa
 
 ![404](assets/docs/features/user_stories11.JPG)
 
-12. As a returning user, I desire that users be able to get in touch with me and offer their comments.
+13. As a returning user, I desire that users be able to get in touch with me and offer their comments.
 
 | **Feature**       | **Action**        | **Expected Result**                  | **Actual Result** |
 | ----------------- | ----------------- | ------------------------------------ | ----------------- |
@@ -456,7 +463,7 @@ The website was deployed using GitHub Pages by undertaken these stages:
 
 
 ## Credits
-was build using descriptions on
+
 ### Code
 
 - Responsive bottom nav was build using description on https://github.com/WebDevSimplified/css-tutorials/tree/master/Responsive%20Navbar and https://www.w3schools.com/howto/howto_css_bottom_nav.asp
