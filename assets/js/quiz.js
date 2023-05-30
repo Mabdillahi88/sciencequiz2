@@ -1,27 +1,22 @@
-//selecting all required elements
-// This is not my code but modified it and I have credited it  the readme file
-// wordlist and my functions variables are linked to my questions in questions_quiz.js and nav bar script
+// Selecting all required elements
+const facts = document.querySelector(".facts");
+const assistance = document.querySelector(".assistance span");
+const chances = document.querySelector(".chances span");
+const incorrect = document.querySelector(".incorrect span");
+const leave = document.querySelector(".leave");
+const importantInformation = document.querySelector(".key-information");
 
-const facts = document.querySelector(".facts"),
-assistance = document.querySelector(".assistance span"),
-chances = document.querySelector(".chances span"),
-incorrect = document.querySelector(".incorrect span"),
-leave = document.querySelector(".leave"),
-importantInformation = document.querySelector(".key-information");
+let word, maxGuesses;
+let incorrectLetters = [];
+let correctLetters = [];
 
-
-let word, maxGuesses, incorrectLetters = [], correctLetters = [];
-
-// This is not my code but modified it and I have credited it  the readme file
-// the words are changed random jargon
-// help is given to assistance obtaining correct answer
-// letters pressed by user are displayed
-
+// Function to generate a random word
 function randomWord() {
-    let ranItem = wordList[Math.floor(Math.random() * wordList.length)]; // word is linked to the questions on the questions_quiz.js 
+    let ranItem = wordList[Math.floor(Math.random() * wordList.length)];
     word = ranItem.word;
     maxGuesses = word.length >= 5 ? 8 : 6;
-    correctLetters = []; incorrectLetters = [];
+    correctLetters = [];
+    incorrectLetters = [];
     assistance.innerText = ranItem.hint;
     chances.innerText = maxGuesses;
     incorrect.innerText = incorrectLetters;
@@ -33,56 +28,74 @@ function randomWord() {
     }
 }
 randomWord();
-// This is not my code but modified it and I have credited it  the readme file
-// the random words are checked against answers
-// correct letters are highlighted and add to the empty locations
 
+
+// Function to initialize the game
 function initGame(e) {
     let key = e.target.value.toLowerCase();
     if(key.match(/^[A-Za-z]+$/) && !incorrectLetters.includes(` ${key}`) && !correctLetters.includes(key)) {
         if(word.includes(key)) {
             for (let i = 0; i < word.length; i++) {
                 if(word[i] == key) {
-                    correctLetters += key; // correct letter is highlighted
+                    correctLetters += key;
                     facts.querySelectorAll("input")[i].value = key;
                 }
             }
         } else {
             maxGuesses--;
-            incorrectLetters.push(` ${key}`); // incorrect answers are recorded for user 
+            incorrectLetters.push(` ${key}`);
         }
-        chances.innerText = maxGuesses; // numbers of chances are recorded
+        chances.innerText = maxGuesses;
         incorrect.innerText = incorrectLetters;
     }
     importantInformation.value = "";
-
-    setTimeout(() => {
-        if(correctLetters.length === word.length) {
-            alert(`YES!!! You found the word ${word.toUpperCase()}`); // correct word is highlighted to the user
-            return randomWord();
-        } else if(maxGuesses < 1) {
-            alert("Game over! You don't have remaining guesses"); // game over is highlight for the user
-            for(let i = 0; i < word.length; i++) {
-                facts.querySelectorAll("input")[i].value = word[i];
-            }
-        }
-    }, 100);
 }
-// This is not my code but modified it and I have credited it  the readme file
-// event listener so users can pick a different random word
-// event listeners can start the game by pressing any button and play the game
+
+// Function to check the game status
+function checkGameStatus() {
+    if(correctLetters.length === word.length) {
+        alert(`YES!!! You found the word ${word.toUpperCase()}`);
+        return randomWord();
+    } else if(maxGuesses < 1) {
+        alert("Game over! You don't have remaining guesses");
+        for(let i = 0; i < word.length; i++) {
+            facts.querySelectorAll("input")[i].value = word[i];
+        }
+    }
+}
+
+
+// Event listeners
 leave.addEventListener("click", randomWord); 
 importantInformation.addEventListener("input", initGame);
 facts.addEventListener("click", () => importantInformation.focus());
 document.addEventListener("keydown", () => importantInformation.focus());
 
-// to make nav links more responsive
 
-function myFunction() {
-    var x = document.getElementById("link-directions"); 
-    if (x.className === "links") {
-      x.className += " responsive";
+// Hangman Game Initialization
+let hangmanWord = ""; // The word for the hangman game
+let hangmanGuesses = []; // The letters guessed in the hangman game
+let hangmanMaxGuesses = 6; // The maximum number of incorrect guesses in the hangman game
+
+// Function to start a new hangman game
+function startHangmanGame() {
+    hangmanWord = word; // The word for the hangman game
+    hangmanGuesses = []; // Reset the letters guessed in the hangman game
+    hangmanMaxGuesses = 6; // Reset the maximum number of incorrect guesses in the hangman game
+    // Update the hangman game display
+    updateHangmanGame();
+}
+
+// Function to make a guess in the hangman game
+function hangmanGuess(letter) {
+    if (hangmanWord.includes(letter)) {
+        // If the letter is in the word, add it to the correct guesses
+        correctLetters += letter;
     } else {
-      x.className = "links";
+        // If the letter is not in the word, add it to the incorrect guesses and decrease the number of remaining guesses
+        incorrectLetters.push(` ${letter}`);
+        hangmanMaxGuesses--;
     }
-  }
+    // Update the hangman game display
+    updateHangmanGame();
+}
