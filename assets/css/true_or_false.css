@@ -1,0 +1,217 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+
+/* Reset and Default Styling */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+body {
+  background: linear-gradient(135deg, #36d1dc, #5b86e5);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  color: white;
+  text-align: center;
+  overflow: hidden;
+}
+
+/* Navbar Styling */
+nav.links {
+  position: fixed;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: rgba(0, 0, 0, 0.8);
+  width: auto;
+  padding: 10px 20px;
+  border-radius: 12px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+  z-index: 100;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+nav.links a {
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  font-weight: bold;
+  transition: background 0.3s ease, transform 0.2s ease;
+  border-radius: 8px;
+}
+
+nav.links a:hover {
+  background: rgba(255, 255, 255, 0.2);
+  transform: scale(1.1);
+}
+
+nav.links a.active {
+  background: #ffc107;
+  color: #000;
+}
+
+/* Game Container */
+.game-container {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+  padding: 20px 30px;
+  width: 90%;
+  max-width: 500px;
+  text-align: center;
+  backdrop-filter: blur(10px);
+  animation: fadeIn 0.5s ease;
+  margin-top: 100px;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+#question {
+  font-size: 1.4rem;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+#result {
+  font-size: 1.2rem;
+  margin-top: 20px;
+  color: #ffc107;
+  font-weight: bold;
+}
+
+button {
+  padding: 12px 20px;
+  font-size: 1rem;
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+button:active {
+  transform: scale(0.95);
+}
+
+#true-button {
+  background: #28a745;
+}
+
+#true-button:hover {
+  background: #218838;
+}
+
+#false-button {
+  background: #dc3545;
+}
+
+#false-button:hover {
+  background: #c82333;
+}
+
+#restart-button {
+  background: #007bff;
+  display: none;
+}
+
+#restart-button:hover {
+  background: #0056b3;
+}
+
+#score,
+#timer {
+  font-size: 1.2rem;
+  margin-top: 10px;
+}
+
+/* Leaderboard Styling */
+#leaderboard {
+  margin-top: 20px;
+  font-size: 1.2rem;
+  text-align: left;
+}
+
+#leaderboard li {
+  margin: 5px 0;
+  padding: 8px 12px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+  transition: background 0.3s ease;
+}
+
+#leaderboard li:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+/* Footer Styling */
+footer {
+  position: fixed;
+  bottom: 10px;
+  width: 100%;
+  text-align: center;
+  color: white;
+  font-size: 0.9rem;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  nav.links {
+    padding: 10px;
+    gap: 10px;
+  }
+
+  nav.links a {
+    font-size: 0.9rem;
+  }
+
+  .game-container {
+    padding: 15px 20px;
+  }
+
+  h1 {
+    font-size: 1.8rem;
+  }
+
+  #question {
+    font-size: 1.2rem;
+  }
+
+  button {
+    padding: 10px 15px;
+    font-size: 0.9rem;
+  }
+
+  #score,
+  #timer {
+    font-size: 1rem;
+  }
+
+  #leaderboard {
+    font-size: 1rem;
+  }
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="assets/css/true_or_false.css">
+  <link rel="icon" href="assets/images/favicon.JPG" type="image/x-icon">
+  <title>Leaderboard</title>
+</head>
+<body>
+  <header>
+    <nav class="links">
+      <a href="index.html">Home</a>
+      <a href="leaderboard.html" class="active">Leaderboard</a>
+      <a href="contact-us.html">Contact Us</a>
+    </nav>
+  </header>
+  <main class="game-container">
+    <h1>Leaderboard</h1>
+    <ol id="leaderboard">
+      <!-- Leaderboard entries will be dynamically inserted here -->
+    </ol>
+    <a href="index.html" class="btn">Play Again</a>
+  </main>
+  <footer>
+    <p>© 2025 Science Games. All rights reserved.</p>
+  </footer>
+  <script>
+    // Retrieve high scores from localStorage
+    const highScores = JSON.parse(localStorage.getItem("highScores")) || [];
+
+    // Get the leaderboard element
+    const leaderboardElement = document.getElementById("leaderboard");
+
+    // Populate leaderboard
+    if (highScores.length === 0) {
+      const emptyMessage = document.createElement("p");
+      emptyMessage.textContent = "No scores available yet. Play the game to add your name!";
+      leaderboardElement.parentElement.insertBefore(emptyMessage, leaderboardElement);
+    } else {
+      highScores.forEach((score) => {
+        const li = document.createElement("li");
+        li.textContent = `${score.name}: ${score.score}`;
+        leaderboardElement.appendChild(li);
+      });
+    }
+  </script>
+</body>
+</html>

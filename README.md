@@ -40,99 +40,123 @@
 
 
 
-## Project Goals
+## **Project Goals**
 
-An interactive and user-friendly version of the two well-known games was what this project set out to do. Word scramble and Science guess game
+The goal of this project is to deliver an engaging and user-friendly platform featuring a **True/False Game**. Additionally, the website provides features for users to interact with the developer via a **Contact Us** page and track their scores on a **Leaderboard**.
 
-### User Goals
+---
 
-- Play a fun game with easy rules that keeps you interested.
-- Push themselves to learn new words 
+## **User Goals**
+- Play an engaging and educational True/False game.
+- Track scores on the leaderboard and compare them with others.
+- Contact the developer easily to provide feedback or ask questions.
 
-### Site owner goals
+---
 
-- Create a fun and engaging game
-- Make the website aesthetically pleasing
-- Make it simple to browse
-- Make it fully responsive and accessible.
+## **Site Owner Goals**
+- Deliver a visually appealing, intuitive, and engaging True/False game.
+- Ensure the game is accessible and responsive on all devices.
+- Provide users with a functional leaderboard to track their performance.
+- Make it easy for users to communicate feedback or questions through the contact form.
 
-## User Experience
+---
 
-### Target audiene
+## **User Experience**
 
-- Anyone who like scramble and guessing activities may play the game.
-- Anyone looking to have fun while playing a game with straightforward rules.
+### **Target Audience**
+- Individuals who enjoy quiz-style games, particularly True/False challenges.
+- People looking for a quick, fun, and easy-to-play game.
 
-### User Expectations
+### **User Expectations**
+- Clear navigation and intuitive instructions for playing the game.
+- Responsive design for a smooth experience on desktop, tablet, and mobile devices.
+- A leaderboard to track and compare scores with others.
+- A simple contact form to reach the developer with confirmation of successful message submission.
 
-- Simple navigation, clear information display
-- Rules of the game that are simple to comprehend.
-- A responsive website that enables game play on any device
-- Links and features that operate as intended
-- A simple approach to get in touch with the creator and offer feedback
+---
 
-## User Stories
+## **User Stories**
 
-1. As a first-time user, I want to navigate between the different pages.
-2. As a first-time user, I want the game's rules to be simple to grasp.
-3. As a first-time user, I want to be able to play the game using the keyboard
-4. As a first-time user, I need to be able to observe the letters I've correctly predicted so far and how 
-   many more rounds I have to guess.
-5. As a first-time user, I want to know how I fared after identifying the sentence.
-6. As a first-time user, I want to see the word that I attempted to guess.
-7. As a first-time user, I want to be capable to use desktop, tablet, and mobile devices to play the game.
-8. As a first-time user, I want to be able to communicate with the developer using the scroll down 
-   feature.
-9. As a first-time user, I want confirmation that my message was sent.
+### **As a User:**
+1. I want to navigate between the **Home**, **Leaderboard**, and **Contact Us** pages easily.
+2. I want the rules of the True/False game to be simple to understand so I can start playing immediately.
+3. I want to be able to play the game using buttons for True and False, with clear feedback on my answers.
+4. I want to track my score in real-time while playing the game.
+5. I want a timer to know how much time I have left to answer questions.
+6. I want to see the final score at the end of the game to track my performance.
+7. I want to check my ranking and compare my score with others on the **Leaderboard** page.
+8. I want the website to be responsive so I can play the game on desktop, tablet, or mobile devices.
+9. I want to contact the developer easily via the **Contact Us** page if I have questions or feedback.
+10. I want confirmation when my message is successfully sent through the contact form.
+11. I want to be redirected to a custom **404 error page** if I type in an invalid URL so that I can return to the main site without using the back button.
 
-### Site Owner
-
-10. I want the game to be simple for the user to grasp. 
-11. I expect optimal responsiveness in my game.
-12. If a user types in a URL that is invalid, I want them to land on a 404 error page instead of having  
-    to utilize their browser's back button.
-13. I desire that users be able to get in touch with me and offer their comments.
+### **As the Site Owner:**
+12. I want the True/False game to be simple for users to understand and play.
+13. I want the **Leaderboard** to display user scores accurately to encourage competition.
+14. I want the **Contact Us** page to collect user feedback and questions effectively.
+15. I want the website to have a clean and engaging design that keeps users interested.
+16. I want the site to handle invalid URLs gracefully with a custom **404 error page**.
+17. I want the site to be fully responsive and accessible across devices to reach a wider audience.
 
 ## Design
 
 The website was created to provide users a visual impression of the online games.
 
-### Colour Scheme
+### **Colour Scheme**
 
-For the colour theme, yellow is a warm, primary colour with a lot of energy that may make your website appear welcoming and cozy. Pink is a vibrant, striking color that may be used in the ideal combination to draw viewers to your website as soon as it loads.
+The website features a vibrant, user-friendly design:
+- **Colours**: A calming blue gradient (#36d1dc to #5b86e5) as the primary background, with accent colours like bright yellow (#ffc107), green (#28a745), and red (#dc3545) for interactive elements.
+- **Fonts**: The site uses **Montserrat** for readability and **Roboto** for professional headings, ensuring a modern and accessible look.
 
 ![Colour scheme](assets/docs/features/colour%20scheme.JPG)
 
 ### Fonts 
 
-Lato is an excellent typeface for websites since it comes in a variety of styles and is very readable. Both typefaces are thought to be good for dyslexics.
+- **Fonts**: The site uses **Montserrat** for readability and **Roboto** for professional headings, ensuring a modern and accessible look.
 
-Oswald works nicely as a complement. It is that seductive and hospitable. Due to its little elongation, it always gives contrast to a typographic combination.
 
-### Structure
+### **Structure**
 
-The website's layout was created to be simple to understand and use. Every game screen is contained within the same enclosure and has a consistent aesthetic throughout.
+The website is structured to provide a seamless and intuitive user experience. Pages include:
+- **True/False Game**: The main interactive feature where users can answer True/False questions.
+- **Leaderboard Page**: Displays user scores to encourage competition and track performance.
+- **Contact Us Page**: Allows users to send messages or feedback to the developer.
+- **404 Error Page**: A custom page for invalid URLs to guide users back to the main site.
 
-### The game's screens are as follows:
+---
 
-#### Science word guess
-- The chosen letters are placed in vacant boxes on the word guess screen.
-- There is room below for incorrect letter selections and attempts at guessing.
-- You are given a hint to help you guess the word.
-- The button (new scientific term) will direct you to select a different scientific term.
+## **Game Features**
 
-#### Science scramble
-- You are given a hint to aid with word guessing after the chosen words are scrambled and placed in the   
-  center of the screen.
-- A timer is provided to keep the user focused and engaged. - A space is provided below for inaccurate
-  letter choices and guesses.
-- The buttons (check word and new word) below that will direct you to either check the word or select a 
-  different scientific term.
-- A reset button to reload the page is located beneath it.
+### **True/False Game**
+- Users are presented with a series of True/False questions.
+- A timer adds an element of challenge and engagement.
+- Scores are calculated based on the number of correct answers.
+- At the end of the game, users can see their total score and update the leaderboard.
 
-- A contact page with a contact form that enables users to email the developer with questions or comments 
-- A separate 404 error page
+---
 
+## **Additional Features**
+
+### **Contact Us Page**
+- A simple contact form where users can submit their name, email, subject, and message.
+- Confirmation is displayed when a message is successfully sent.
+
+### **Leaderboard Page**
+- Displays a list of top scores for the True/False game.
+- Encourages competition among players.
+
+### **404 Error Page**
+- A custom page to handle invalid URLs, ensuring users are guided back to the main site.
+
+---
+
+## **User Interaction Flow**
+1. Navigate to the True/False game via the homepage.
+2. Play the game, answer questions, and view the final score.
+3. Check the leaderboard to see where your score ranks.
+4. Use the contact form to provide feedback or ask questions.
+
+---
 
 ### Wireframes
 
@@ -177,288 +201,297 @@ The website's layout was created to be simple to understand and use. Every game 
 - [Lighthouse](https://developers.google.com/web/tools/lighthouse/) 
 - [Am I Responsive](http://ami.responsivedesign.is/)
 
-## Features
+## **Features**
 
-### Navigation Bar
-
-
-
-- Appeared on every page (3 pages).
-- Users can quickly traverse it, and the link to the page they are now on is emphasized. 
-- The navbar provides links to the science scrambe, science guessing game and contact us page. 
-- It is fully responsive. On smaller devices, it converts into a toggler (hamburger menu icon).
-- user stories covered: 1
+### **Navigation Bar**
+- Appears on every page (Home, Leaderboard, and Contact Us).
+- Highlights the current page for user clarity.
+- Fully responsive across devices, ensuring smooth navigation.
+- User stories covered: 1, 8.
 ![navbar](assets/docs/features/navbar_features.JPG)
 
-### Science scramble screen
+---
 
+### **True/False Game**
+- Clear instructions are displayed at the start of the game.
+- Users answer True or False questions using interactive buttons.
+- Real-time feedback is provided for correct or incorrect answers.
+- A live score tracker and timer ensure an engaging and focused experience.
+- The final score is displayed at the end, encouraging replayability.
+- User stories covered: 2, 3, 4, 5, 6, 12.
+![true_false_game](assets/docs/features/true_false_game.JPG)
 
- - Instructions are clearly stated at the top of the game.
- - The chosen word is scramble.
- - Hint is given underneath the word so help the user identify the chosen word.
- - The time remaining is underneath the hint to engage and focus the user.
- - Empty text box is given for the user to type the answer
- - New word and check word button is underneath the text box to enable the user to pick a new word or 
-   check the answer they have typed in the text box.
-- Reset button is added underneath to reset the whole game.
-user stories covered: 2, 3, 4, 5, 6, 7, 10, 11
-![science_scramble](assets/docs/features/science_scramble_features.JPG)
+---
 
-### Science guess screen
+### **Leaderboard Page**
+- Displays top scores, allowing users to compare their performance with others.
+- Provides a competitive and motivational element to the game.
+- Fully responsive for seamless viewing on all devices.
+- User stories covered: 7, 13.
+![leaderboard](assets/docs/features/leaderboard.JPG)
 
- - Instructions are clearly stated at the top of the game.
- - The chosen letters are placed in vacant boxes on the word guess screen.
- - Hint is given underneath the word so help the user identify the chosen word.
--  Space is given to inform the user number of attemps left to identify the chosen word. 
--  Space is given to record the incorrect letters typed at guessing.
--  The button (new scientific term) will direct you to select a different scientific term.
-user stories covered: 2, 3, 4, 5, 6, 7, 10 ,11
-![science_guess](assets/docs/features/science_guess_features.JPG)
+---
 
-### Contact us page 
-
-- User can give feedback on the game. 
-- EmailJS was used to send a message and user data in an email to the developer.
-- Send button will send the message and reset button will clear the page for new message
-- Once comment is sent, success message will pop for confirmation.
-- scroll has been added to enable user to send or reset the page.
-- Validation is added to ensure all the key text boxes are required to fill in for message to be sent out
-- user stories covered: 8, 9, 13
+### **Contact Us Page**
+- Users can submit feedback or questions through a simple form.
+- EmailJS is used to send messages directly to the developer.
+- A confirmation message appears after successful submission.
+- Form validation ensures all required fields are filled before sending.
+- User stories covered: 9, 10, 14.
 ![contact_us1](assets/docs/features/contact_us_features1.JPG)
 ![contact_us2](assets/docs/features/contact_us_features2.JPG)
-![contact_us3](assets/docs/features/contact_us_features3.JPG)
 
+---
 
-### 404 error page
-
-- If a user inputs a URL that is invalid, a 404 error page will be shown on the website.
-- Has a button to return to the main screen.
-- user stories covered: 12
+### **404 Error Page**
+- A custom error page appears when users navigate to an invalid URL.
+- Includes a button to return to the homepage for easy redirection.
+- User stories covered: 11, 16.
 ![404](assets/docs/features/user_stories11.JPG)
 
- ## Validation
+---
+## **Validation**
 
-### HTML Validation
-The W3C Markup Validation Service was used to check the HTML of the webpage. None of the pages have any issues or obvious warnings.
+### **HTML Validation**
+The W3C Markup Validation Service was used to validate the HTML for all pages. No issues or warnings were found.
 
-# Science guess game
-![validation-guess](assets/docs/features/validations/validation_html_index.JPG)
+- **True/False Game**: ![validation-true-false](assets/docs/features/validations/validation_html_true_false.JPG)
+- **Leaderboard Page**: ![validation-leaderboard](assets/docs/features/validations/validation_html_leaderboard.JPG)
+- **Contact Us Page**: ![validation-contact](assets/docs/features/validations/validation_html_contact_us.JPG)
+- **404 Error Page**: ![validation-404](assets/docs/features/validations/validation_html_404_page.JPG)
 
-# Science scramble game
-![validation-scramble](assets/docs/features/validations/validation_html_word_scramble.JPG)
+---
 
-# Science contact game
-![validation-contact](assets/docs/features/validations/validation_html_contact_us.JPG)
+### **CSS Validation**
+The W3C Jigsaw CSS Validation Service was used to review the website’s CSS. All stylesheets passed validation with no issues or warnings.
 
-# 404 page
-![validation-404](assets/docs/features/validations/validation_html_404_page.JPG)
+- **True/False Game**: ![validation-true-false-css](assets/docs/features/validations/validation_css_true_false.JPG)
+- **Leaderboard Page**: ![validation-leaderboard-css](assets/docs/features/validations/validation_css_leaderboard.JPG)
+- **Contact Us Page**: ![validation-contact-css](assets/docs/features/validations/validation_css_contact_us.JPG)
+- **404 Error Page**: ![validation-404-css](assets/docs/features/validations/validation_css_404_page.JPG)
 
+---
 
-### CSS Validation
+### **Accessibility**
+The WAVE WebAIM online accessibility evaluation tool was used to verify compliance with accessibility standards. All pages showed no errors.
 
-The W3C Jigsaw CSS Validation Service was used to review the website's CSS. None of the pages have any issues or obvious warnings.
+**Note:** Input fields in the Contact Us form required JavaScript for labels, which caused exceptions in the WAVE tool.
 
-# Science guess game
-![validation-guess](assets/docs/features/validations/validation-css.index_page.JPG)
+- **True/False Game**: ![validation-true-false-accessibility](assets/docs/features/validations/validation_accessibility_true_false.JPG)
+- **Leaderboard Page**: ![validation-leaderboard-accessibility](assets/docs/features/validations/validation_accessibility_leaderboard.JPG)
+- **Contact Us Page**: ![validation-contact-accessibility](assets/docs/features/validations/validation_accessibility_contact_us.JPG)
 
-# Science scramble game
-![validation-scramble](assets/docs/features/validations/validation-css.science_scramble.JPG)
+---
 
-# Science contact game
-![validation-contact](assets/docs/features/validations/validation-css.contact_us.JPG)
+### **Performance**
+Google Lighthouse in the Chrome Developer Tools was used to assess the website’s performance. The website scored high in accessibility, SEO, and best practices across all pages.
 
-# 404 page
-![validation-home](assets/docs/features/validations/validation-css.404_page.JPG)
+- **True/False Game**: ![validation-true-false-lighthouse](assets/docs/features/validations/validation_lighthouse_true_false.JPG)
+- **Leaderboard Page**: ![validation-leaderboard-lighthouse](assets/docs/features/validations/validation_lighthouse_leaderboard.JPG)
+- **Contact Us Page**: ![validation-contact-lighthouse](assets/docs/features/validations/validation_lighthouse_contact_us.JPG)
 
-### Accessibility
+---
 
-The WAVE WebAIM online accessibility evaluation tool was used to determine if the website complied with stringent accessibility standards. On every page, there are no errors.
+### **JavaScript Validation**
+The JavaScript files were validated using the JSHint service. No major issues were found.
 
-Exceptions = the input code that requires a label is linked to javascript. I have tried everything to add a label but unable to pass wave accessibility validation
+**Exceptions:**
+- Variables like `myFunctions` and `emailJS` are tied to game logic and external services, causing minor warnings but no errors.
 
-# Science guess game
-![validation-guess](assets/docs/features/validations/validation_accessibility_science_guess.JPG)
+- **True/False Game**: 
+  ![validation-true-false-js](assets/docs/features/validations/validation_js_true_false.JPG)
+  ![validation-true-false-js-2](assets/docs/features/validations/validation_js_true_false_2.JPG)
+  
+- **Contact Us Page**:
+  ![validation-contact-js](assets/docs/features/validations/validation_js_contact_us.JPG)
 
-# Science scramble game
-![validation-scramble](assets/docs/features/validations/validation_accessibility_science_scramble.JPG)
+---
 
-# Science contact game
-![validation-contact](assets/docs/features/validations/validation_accessibility_contact_us.JPG)
+## **Testing**
 
-
-### Performance 
-
-Google Lighthouse in the Google Chrome Developer Tools was used to assess the website's usability.
-
-# Science guess game
-![validation-guess](assets/docs/features/validations/validation_lighthouse_science_guess.JPG)
-
-# Science scramble game
-![validation-scramble](assets/docs/features/validations/validation_lighthouse_science_scramble.JPG)
-
-# Science contact game
-![validation-contact](assets/docs/features/validations/validation_lighthouse_contact_us.JPG)
-
-### JavaScript Validation
-
-The Javascript files were checked using JSHint JS Validation Service. No major problems were discovered.
-
-Exceptions = wordlist and my functions variables are linked to my questions in questions_quiz.js and nav bar script 
-
-# Science guess game
-![validation-guess](assets/docs/features/validations/validation_science_guess_questions_jshint.JPG)
-![validation-guess](assets/docs/features/validations/validation_science_guess_jshint2.JPG)
-
-# Science scramble game
-
-Exceptions = words and myfunctions variables are linked to my questions in questions_scramble  and nav bar script
-
-![validation-scramble](assets/docs/features/validations/validation_science_scramble_jshint.JPG)
-![validation-scramble](assets/docs/features/validations/validation_science_scramble_jshint2.JPG)
-
-Exceptions = email js and myfunctions variables are linked to my questions in contact_js and nav bar script
-
-# Science contact game
-![validation-contact](assets/docs/features/validations/validation_contact_us_jshint.JPG)
-
-## Testing
-
-### Performing tests on various devices 
+### **Device Testing**
 The website was tested on the following devices:
-- Surface Pro 7 
-- iPhone 5/SE
-- iPad air
+- **Surface Pro 7**
+- **iPhone SE**
+- **iPad Air**
 
-Google Chrome Developer Tools Device Toggling was utilized to evaluate all webpages across all feasible device combinations
+Additionally, Google Chrome Developer Tools was used to evaluate responsiveness across multiple device sizes.
 
-### Browser compatibility
+---
 
-- The following browsers have been put to the test:
-  - Googe Chrome 
-  - Firefox Browser 
+### **Browser Compatibility**
+The website was tested on the following browsers:
+- **Google Chrome**
+- **Firefox**
 
-  ### Testing user stories
+All features performed as expected with no compatibility issues.
 
+---
 
-1. As a first-time user, I want to navigate between the different pages.
+### **User Story Testing**
 
-| **Feature**       | **Action**        | **Expected Result**                  | **Actual Result** |
-| ----------------- | ----------------- | ------------------------------------ | ----------------- |
-|  navigation bar at the bottom  |  click on the game or contact page from the navigation bar | clicking on the name of the game or contact page transport you to the correct page | clicking on the name transports you to the game or contact page |
+#### **1. Navigation Between Pages**
+| **Feature**       | **Action**                     | **Expected Result**                                  | **Actual Result**         |
+| ----------------- | ----------------------------- | -------------------------------------------------- | ------------------------- |
+| Navigation bar    | Click on **Home**, **Leaderboard**, or **Contact Us** | Users navigate to the correct page                | Works as expected         |
 
-![nav](assets/docs/features/user_stories13.JPG)
+![nav](assets/docs/features/user_stories1.JPG)
 
+---
 
-2. As a first-time user, I want the game's rules to be simple to grasp.
+#### **2. Clear Game Rules**
+| **Feature**       | **Action**       | **Expected Result**                           | **Actual Result** |
+| ----------------- | ---------------- | --------------------------------------------- | ----------------- |
+| Game instructions | Navigate to the game page | Clear and concise rules are displayed at the top | Rules are displayed correctly |
 
-| **Feature**       | **Action**        | **Expected Result**                  | **Actual Result** |
-| ----------------- | ----------------- | ------------------------------------ | ----------------- |
-|  Above the game  |  go to game page and navigating to above the game | instruction of the game given  | instruction of the game is shown |
+![rules](assets/docs/features/user_stories2.JPG)
 
-![rules](assets/docs/features/user_stories1.JPG)
-![rules](assets/docs/features/user_stories1.1.JPG)
+---
 
+#### **3. True/False Buttons with Feedback**
+| **Feature**       | **Action**         | **Expected Result**                                | **Actual Result** |
+| ----------------- | ------------------ | ------------------------------------------------- | ----------------- |
+| True/False buttons| Click **True** or **False** | Immediate feedback is displayed for the selected answer | Feedback works as expected |
 
-3. As a first-time user, I want to be able to play the game using the keyboard
+![feedback](assets/docs/features/user_stories3.JPG)
 
-| **Feature**       | **Action**        | **Expected Result**                  | **Actual Result** |
-| ----------------- | ----------------- | ------------------------------------ | ----------------- |
-|  letters pressed will visible to the user | type the letter using your keyboard | type words will be highlighted in the box or attempted area | letters will be visible in the empty boxed if correct and wrong letters will be visible in the attempted area |
+---
 
-![keyboard](assets/docs/features/user_stories2.JPG)
-![keyboard](assets/docs/features/user_stories2.1.JPG)
+#### **4. Real-Time Score Tracking**
+| **Feature**       | **Action**                     | **Expected Result**                     | **Actual Result**         |
+| ----------------- | ----------------------------- | --------------------------------------- | ------------------------- |
+| Score tracker     | Play the game and answer questions | Score updates in real-time             | Works as expected         |
 
-4. As a first-time user, I need to be able to observe the letters I've correctly predicted so far and how many more rounds I have to guess.
+![score](assets/docs/features/user_stories4.JPG)
 
-| **Feature**       | **Action**        | **Expected Result**                  | **Actual Result** |
-| ----------------- | ----------------- | ------------------------------------ | ----------------- |
-|  letters will be present in the text boxes | letters will appear in the text box |letters will appear in the text box as users type the correct letters | letters appear in the text box if correct |
+---
 
-![rounds](assets/docs/features/user_stories3.JPG)
+#### **5. Timer for Game Progress**
+| **Feature**       | **Action**       | **Expected Result**                          | **Actual Result** |
+| ----------------- | ---------------- | -------------------------------------------- | ----------------- |
+| Timer             | Start the game   | Countdown timer is displayed and functional  | Timer works as expected |
 
-5. As a first-time user, I want to know how I fared after identifying the sentence.
+![timer](assets/docs/features/user_stories5.JPG)
 
-| **Feature**       | **Action**        | **Expected Result**                  | **Actual Result** |
-| ----------------- | ----------------- | ------------------------------------ | ----------------- |
-|  correct answer will be shown in the text box | correct letters will be visible in text box |correct answer will start to appear in the text box | correct answer appear in text box |
+---
 
+#### **6. Display Final Score**
+| **Feature**       | **Action**       | **Expected Result**                          | **Actual Result** |
+| ----------------- | ---------------- | -------------------------------------------- | ----------------- |
+| Final score       | Complete the game| Final score is displayed on completion       | Final score is displayed correctly |
 
-![identify](assets/docs/features/user_stories2.JPG)
+![final_score](assets/docs/features/user_stories6.JPG)
 
-6. As a first-time user, I want to see the word that I attempted to guess.
+---
 
-| **Feature**       | **Action**        | **Expected Result**                  | **Actual Result** |
-| ----------------- | ----------------- | ------------------------------------ | ----------------- |
-|  number of attempts will be present underneath the unknown word | number of attempts left will start to decrease as user engages with game | number of attempts will highlighted | number of attempts |
+#### **7. Leaderboard Functionality**
+| **Feature**       | **Action**                     | **Expected Result**                                  | **Actual Result**         |
+| ----------------- | ----------------------------- | -------------------------------------------------- | ------------------------- |
+| Leaderboard       | View leaderboard after finishing the game | Rankings and scores are displayed                | Leaderboard works as expected |
 
-![chances](assets/docs/features/user_stories5.JPG)
+![leaderboard](assets/docs/features/user_stories7.JPG)
 
-7. As a first-time user, I want to be capable to use desktop, tablet, and mobile devices to play the game.
+---
 
-| **Feature**       | **Action**        | **Expected Result**                  | **Actual Result** |
-| ----------------- | ----------------- | ------------------------------------ | ----------------- |
-|  game is visible on different devices | open the game using different devices | game is responsive on different devices | game is responsive on range of devices |
+#### **8. Responsive Design**
+| **Feature**       | **Action**                     | **Expected Result**                                  | **Actual Result**         |
+| ----------------- | ----------------------------- | -------------------------------------------------- | ------------------------- |
+| Responsiveness    | Test the website on desktop, tablet, and mobile devices | The website adjusts and works smoothly on all devices | Fully responsive |
 
-![devices](assets/docs/features/user_stories6.JPG)
+![responsive](assets/docs/features/user_stories8.JPG)
 
-8. As a first-time user, I want to be able to communicate with the developer using the scroll down feature.
+---
 
-| **Feature**       | **Action**        | **Expected Result**                  | **Actual Result** |
-| ----------------- | ----------------- | ------------------------------------ | ----------------- |
-|  contact form | using the navbar click on contact us. Fill out the form and press submit |contact form will open and form will appear.  | contact us tab will open contact form to be filled out by user |
+#### **9. Contact Us Page**
+| **Feature**       | **Action**                     | **Expected Result**                                  | **Actual Result**         |
+| ----------------- | ----------------------------- | -------------------------------------------------- | ------------------------- |
+| Contact form      | Fill and submit the form       | Form submission is successful, and confirmation appears | Works as expected         |
 
-![contact_us](assets/docs/features/user_stories7.JPG)
-![scroll_down](assets/docs/features/user_stories7.1.JPG)
+![contact_form](assets/docs/features/user_stories9.JPG)
 
-9. As a first-time user, I want confirmation that my message was sent.
+---
 
-| **Feature**       | **Action**        | **Expected Result**                  | **Actual Result** |
-| ----------------- | ----------------- | ------------------------------------ | ----------------- |
-|  success message pops up | once you submit the form, a message will appear to highlight receipt of sent form  | success message will pop up | success message will pop |
+#### **10. Confirmation for Submitted Messages**
+| **Feature**       | **Action**                     | **Expected Result**                                  | **Actual Result**         |
+| ----------------- | ----------------------------- | -------------------------------------------------- | ------------------------- |
+| Confirmation message | Submit the form             | Success message pops up                            | Success message appears as expected |
 
-![message](assets/docs/features/user_stories8.JPG)
+![confirmation](assets/docs/features/user_stories10.JPG)
 
-10. As a returning user, I want the game to be simple for the user to grasp. 
+---
 
-| **Feature**       | **Action**        | **Expected Result**                  | **Actual Result** |
-| ----------------- | ----------------- | ------------------------------------ | ----------------- |
-|  Above the game  |  go to game page and navigating to above the game | instruction of the game given  | instruction of the game is shown |
+#### **11. Custom 404 Error Page**
+| **Feature**       | **Action**                     | **Expected Result**                                  | **Actual Result**         |
+| ----------------- | ----------------------------- | -------------------------------------------------- | ------------------------- |
+| 404 page          | Enter an invalid URL          | Custom 404 page appears with a return button       | Works as expected         |
 
-![rules](assets/docs/features/user_stories1.JPG)
-![rules](assets/docs/features/user_stories1.1.JPG)
+![404_page](assets/docs/features/user_stories11.JPG)
 
-11. As a returning user, I expect optimal responsiveness in my game.
+---
 
-| **Feature**       | **Action**        | **Expected Result**                  | **Actual Result** |
-| ----------------- | ----------------- | ------------------------------------ | ----------------- |
-|  game is visible on different devices | open the game using different devices | game is responsive on different devices | game is responsive on range of devices |
+### **Site Owner Testing**
 
-![devices](assets/docs/features/user_stories6.JPG)
+#### **12. Intuitive Game Design**
+| **Feature**       | **Action**                     | **Expected Result**                                  | **Actual Result**         |
+| ----------------- | ----------------------------- | -------------------------------------------------- | ------------------------- |
+| Game design       | Play the True/False game       | The game is simple to understand and play          | Works as expected         |
 
-12. As a returning user, If a user types in a URL that is invalid, I want them to land on a 404 error page instead of having  
-    to utilize their browser's back button.
+![game](assets/docs/features/user_stories12.JPG)
 
-| **Feature**       | **Action**        | **Expected Result**                  | **Actual Result** |
-| ----------------- | ----------------- | ------------------------------------ | ----------------- |
-|  404 page will appear | wrong webpage is typed and user will direct to 404 | 404 page will appear | 404 page will appear |
+---
 
-![404](assets/docs/features/user_stories11.JPG)
+#### **13. Accurate Leaderboard**
+| **Feature**       | **Action**                     | **Expected Result**                                  | **Actual Result**         |
+| ----------------- | ----------------------------- | -------------------------------------------------- | ------------------------- |
+| Leaderboard       | View leaderboard after finishing the game | Rankings and scores are displayed accurately       | Works as expected         |
 
-13. As a returning user, I desire that users be able to get in touch with me and offer their comments.
+![leaderboard](assets/docs/features/user_stories13.JPG)
 
-| **Feature**       | **Action**        | **Expected Result**                  | **Actual Result** |
-| ----------------- | ----------------- | ------------------------------------ | ----------------- |
-|  contact form | using the navbar click on contact us. Fill out the form and press submit |contact form will open and form will appear.  | contact us tab will open contact form to be filled out by user |
+---
 
-![contact_us](assets/docs/features/user_stories7.JPG)
-![scroll_down](assets/docs/features/user_stories7.1.JPG)
+#### **14. Feedback Collection via Contact Us**
+| **Feature**       | **Action**                     | **Expected Result**                                  | **Actual Result**         |
+| ----------------- | ----------------------------- | -------------------------------------------------- | ------------------------- |
+| Contact Us page   | Submit feedback or questions   | Form submission is successful                      | Works as expected         |
 
+![contact_us](assets/docs/features/user_stories14.JPG)
 
-## Bugs
+---
 
-| **Bug** | **Fix** |
-| ----------- | ----------- |
-When devices were switched, the games were not responsive. | To account for the varied widths of devices, media query was utilized
+#### **15. Clean and Engaging Design**
+| **Feature**       | **Action**                     | **Expected Result**                                  | **Actual Result**         |
+| ----------------- | ----------------------------- | -------------------------------------------------- | ------------------------- |
+| Website design    | Navigate through the website   | Clean and visually engaging layout                 | Design is user-friendly   |
+
+---
+
+#### **16. Custom 404 Error Handling**
+| **Feature**       | **Action**                     | **Expected Result**                                  | **Actual Result**         |
+| ----------------- | ----------------------------- | -------------------------------------------------- | ------------------------- |
+| 404 page          | Enter an invalid URL          | Custom 404 page appears                            | Works as expected         |
+
+---
+
+#### **17. Full Responsiveness**
+| **Feature**       | **Action**                     | **Expected Result**                                  | **Actual Result**         |
+| ----------------- | ----------------------------- | -------------------------------------------------- | ------------------------- |
+| Responsive design | Test the website on various devices | The website adapts to desktop, tablet, and mobile devices | Fully responsive         |
+
+---
+
+### **Bugs**
+
+| **Bug**                                                                 | **Fix**                                                                                     |
+| ----------------------------------------------------------------------- | ------------------------------------------------------------------------------------------ |
+| The website was not responsive on some devices.                         | Added media queries to ensure the layout adjusts for various screen sizes.                 |
+| True/False buttons were overlapping the question on smaller screens.    | Adjusted button sizes and spacing using CSS flexbox and media queries.                     |
+| Timer was not resetting properly after restarting the game.             | Added a reset function in JavaScript to ensure the timer starts fresh for each new session.|
+| Leaderboard scores were not displaying in the correct order.            | Updated the sorting algorithm to ensure scores are displayed in descending order.          |
+| Contact form submission did not provide feedback on unsuccessful sends. | Implemented error handling using EmailJS to notify users of submission errors.             |
+| The 404 error page was not styled consistently with the rest of the site. | Applied the same gradient background and font styles as other pages for a cohesive design. |
+
+### **Summary**
+All bugs identified during testing have been fixed, ensuring the website is fully functional, responsive, and user-friendly.
 
 ## Deployment
 

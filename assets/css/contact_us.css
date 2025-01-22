@@ -1,0 +1,167 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+
+/* General Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+body {
+  background: linear-gradient(135deg, #36d1dc, #5b86e5);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  flex-direction: column;
+  overflow: hidden;
+  color: #fff;
+}
+
+/* Navbar Styles */
+.navbar {
+  position: relative;
+  background-color: #1c1c1c; /* Dark background color */
+  padding: 10px 30px; /* Adjusted padding for aesthetics */
+  display: flex;
+  justify-content: center;
+  gap: 20px; /* Spacing between links */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3); /* Enhanced shadow for depth */
+  border-radius: 25px; /* Fully rounded edges */
+}
+
+.navbar a {
+  color: #fff;
+  text-decoration: none;
+  padding: 12px 20px;
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 8px; /* Rounded edges for buttons */
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  background-color: transparent; /* Default transparent background */
+}
+
+.navbar a:hover {
+  background-color: rgba(255, 255, 255, 0.2); /* Subtle hover effect */
+}
+
+.navbar a.active {
+  background-color: #f5c000; /* Bright yellow for the active button */
+  color: #000; /* Black text for contrast */
+  font-weight: bold;
+}
+
+/* Form Styling */
+form {
+  max-width: 600px;
+  width: 90%;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+  animation: fadeIn 0.8s ease-in-out;
+  margin-top: 30px; /* Spacing between navbar and form */
+}
+
+form h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 2rem;
+  color: #fff;
+}
+
+label {
+  display: block;
+  margin: 15px 0 5px;
+  color: #fff;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.3);
+  color: #fff;
+}
+
+textarea {
+  resize: none;
+}
+
+button {
+  display: inline-block;
+  padding: 12px 20px;
+  font-size: 1rem;
+  text-align: center;
+  border-radius: 8px;
+  cursor: pointer;
+  background-color: #27ae60;
+  color: #fff;
+  border: none;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #219150;
+}
+
+a.btn-secondary {
+  display: inline-block;
+  padding: 12px 20px;
+  font-size: 1rem;
+  text-align: center;
+  border-radius: 8px;
+  background-color: #e74c3c;
+  color: #fff;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+a.btn-secondary:hover {
+  background-color: #c0392b;
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Responsive Adjustments */
+@media screen and (max-width: 480px) {
+  .navbar {
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 10px 20px; /* Adjust padding for smaller screens */
+  }
+
+  form {
+    padding: 20px;
+  }
+
+  form h1 {
+    font-size: 1.8rem;
+  }
+
+  input,
+  textarea {
+    font-size: 0.9rem;
+  }
+
+  button,
+  a.btn-secondary {
+    font-size: 0.9rem;
+    padding: 10px 15px;
+  }
+}
